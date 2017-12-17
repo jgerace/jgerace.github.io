@@ -1,0 +1,340 @@
+---
+layout: default
+---
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="plotto.js"></script>
+    <div class="container">
+    <div class="jumbotron row col-md-9">
+      <h2>Random Conflict</h2>
+      <p id="conflict"></p>
+      <p>
+        <div class="row">
+          <div class="col-md-4">
+            <a class="btn btn-primary btn-md" id="getConflict" role="button">Give me another!</a>
+          </div>
+          <div class="col-md-8">
+            <a class="btn btn-xs pull-right" data-toggle="modal" data-target="#abbrModal">
+              View character abbreviations
+            </a>
+          </div>
+        </div>
+      </p>
+      <div class="modal fade" id="abbrModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Character Abbreviations</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-3"/>
+                          <th class="col-xs-9"/>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+              <td>A</td>
+              <td>male protagonist</td>
+              </tr>
+              <tr>
+              <td>A-2</td>
+              <td>male friend of A</td>
+              </tr>
+              <tr>
+              <td>A-3</td>
+              <td>male rival or enemy of A</td>
+              </tr>
+              <tr>
+              <td>A-4</td>
+              <td>male stranger</td>
+              </tr>
+              <tr>
+              <td>A-5</td>
+              <td>male criminal</td>
+              </tr>
+              <tr>
+              <td>A-6</td>
+              <td>male officer of the law</td>
+              </tr>
+              <tr>
+              <td>A-7</td>
+              <td>male inferior, employee</td>
+              </tr>
+              <tr>
+              <td>A-8</td>
+              <td>male utility symbol</td>
+              </tr>
+              <tr>
+              <td>A-9</td>
+              <td>male superior, employer, one in authority</td>
+              </tr>
+              <tr>
+              <td>F-A</td>
+              <td>father of A</td>
+              </tr>
+              <tr>
+              <td>M-A</td>
+              <td>mother of A</td>
+              </tr>
+              <tr>
+              <td>BR-A</td>
+              <td>brother of A</td>
+              </tr>
+              <tr>
+              <td>SR-A</td>
+              <td>sister of A</td>
+              </tr>
+              <tr>
+              <td>SN-A</td>
+              <td>son of A</td>
+              </tr>
+              <tr>
+              <td>D-A</td>
+              <td>daughter of A</td>
+              </tr>
+              <tr>
+              <td>U-A</td>
+              <td>uncle of A</td>
+              </tr>
+              <tr>
+              <td>AU-A</td>
+              <td>aunt of A</td>
+              </tr>
+              <tr>
+              <td>CN-A</td>
+              <td>male cousin of A</td>
+              </tr>
+              <tr>
+              <td>NW-A</td>
+              <td>nephew of A</td>
+              </tr>
+              <tr>
+              <td>NC-A</td>
+              <td>niece of A</td>
+              </tr>
+              <tr>
+              <td>GF-A</td>
+              <td>grandfather of A</td>
+              </tr>
+              <tr>
+              <td>GM-A</td>
+              <td>grandmother of A</td>
+              </tr>
+              <tr>
+              <td>SF-A</td>
+              <td>stepfather of A</td>
+              </tr>
+              <tr>
+              <td>SM-A</td>
+              <td>stepmother of A</td>
+              </tr>
+              <tr>
+              <td>GCH-A</td>
+              <td>grandchild of A</td>
+              </tr>
+              <tr>
+              <td>AX</td>
+              <td>a mysterious male person or one of unusual character</td>
+              </tr>
+              <tr>
+              <td>CH</td>
+              <td>a child</td>
+              </tr>
+              <tr>
+              <td>X</td>
+              <td>an inanimate object, an object of mystery, an uncertain quantity</td>
+              </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th class="col-xs-3"/>
+                          <th class="col-xs-9"/>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+              <td>B</td>
+              <td>female protagonist</td>
+              </tr>
+              <tr>
+              <td>B-2</td>
+              <td>female friend of B</td>
+              </tr>
+              <tr>
+              <td>B-3</td>
+              <td>female rival or enemy of B</td>
+              </tr>
+              <tr>
+              <td>B-4</td>
+              <td>female stranger</td>
+              </tr>
+              <tr>
+              <td>B-5</td>
+              <td>female criminal</td>
+              </tr>
+              <tr>
+              <td>B-6</td>
+              <td>female officer of the law</td>
+              </tr>
+              <tr>
+              <td>B-7</td>
+              <td>female inferior, employee</td>
+              </tr>
+              <tr>
+              <td>B-8</td>
+              <td>female utility symbol</td>
+              </tr>
+              <tr>
+              <td>B-9</td>
+              <td>female superior, employer, one in authority</td>
+              </tr>
+              <tr>
+              <td>F-B</td>
+              <td>father of B</td>
+              </tr>
+              <tr>
+              <td>M-B</td>
+              <td>mother of B</td>
+              </tr>
+              <tr>
+              <td>BR-B</td>
+              <td>brother of B</td>
+              </tr>
+              <tr>
+              <td>SR-B</td>
+              <td>sister of B</td>
+              </tr>
+              <tr>
+              <td>SN-B</td>
+              <td>son of B</td>
+              </tr>
+              <tr>
+              <td>D-B</td>
+              <td>daughter of B</td>
+              </tr>
+              <tr>
+              <td>U-B</td>
+              <td>uncle of B</td>
+              </tr>
+              <tr>
+              <td>AU-B</td>
+              <td>aunt of B</td>
+              </tr>
+              <tr>
+              <td>CN-B</td>
+              <td>female cousin of B</td>
+              </tr>
+              <tr>
+              <td>NW-B</td>
+              <td>nephew of B</td>
+              </tr>
+              <tr>
+              <td>NC-B</td>
+              <td>niece of B</td>
+              </tr>
+              <tr>
+              <td>GF-B</td>
+              <td>grandfather of B</td>
+              </tr>
+              <tr>
+              <td>GM-B</td>
+              <td>grandmother of B</td>
+              </tr>
+              <tr>
+              <td>SF-B</td>
+              <td>stepfather of B</td>
+              </tr>
+              <tr>
+              <td>SM-B</td>
+              <td>stepmother of B</td>
+              </tr>
+              <tr>
+              <td>GCH-B</td>
+              <td>grandchild of B</td>
+              </tr>
+              <tr>
+              <td>BX</td>
+              <td>a mysterious female person or one of unusual character</td>
+              </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container">
+      <div class="row col-md-12">
+        <div class="col-md-3">
+          <h3>Random Character</h3>
+          <p id="character"></p>
+          <p><a class="btn btn-default" id="getChar" role="button">Give me another!</a></p>
+        </div>
+        <div class="col-md-3">
+          <h3>Random Action</h3>
+          <p id="action"></p>
+          <p><a class="btn btn-default" id="getAction" role="button">Give me another!</a></p>
+       </div>
+        <div class="col-md-3">
+          <h3>Random Termination</h3>
+          <p id="termination"></p>
+          <p><a class="btn btn-default" id="getTerm" role="button">Give me another!</a></p>
+        </div>
+      </div>
+  </div>
+  <script type='text/javascript'>
+    window.onload = function() {
+      Plotto.getRandomConflict("conflict");
+      Plotto.getRandomCharacter("character");
+      Plotto.getRandomAction("action");
+      Plotto.getRandomTermination("termination");
+
+      document.getElementById('getConflict').addEventListener('click', function(event) {
+          Plotto.getRandomConflict();
+        });
+
+        document.getElementById('getChar').addEventListener('click', function(event) {
+          Plotto.getRandomCharacter();
+        });
+
+        document.getElementById('getAction').addEventListener('click', function(event) {
+          Plotto.getRandomAction();
+        });
+
+        document.getElementById('getTerm').addEventListener('click', function(event) {
+          Plotto.getRandomTermination();
+        });
+    }
+  </script>
+
+  <br><br>
+  <div class="container">
+    <div class="row col-md-9">
+    <p class="small text-center">
+      Plotto content from <em>Plotto</em> by William Wallace Cook published 1928 by Ellis Publishing Co., Battle Creek, MI
+    </p>
+    </div>
+  </div>

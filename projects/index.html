@@ -6,7 +6,7 @@ title: Projects
 <div class="home">
 
   <ul class="post-list">
-    {% for project in site.projects %}
+    {% for project in site.projects|sort(reverse=True) %}
       <li>
         <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
 
