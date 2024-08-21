@@ -10,9 +10,9 @@ tags:
 > If you want to be a writer, marry someone who thinks your being a writer is a good idea. And don't have kids.
 > <cite>Richard Ford</cite>
 
-I've heard Richard Ford offer this advice more than once and I hate it. He's pretty adamant about this nugget, but it's clearly ridiculous and extreme (as is some of his other advice, which maybe I'll write about separately). There are tons of great, successful writers who have kids: Michael Chabon + Ayelet Waldman - 4 kids, Emily Raboteau + Victor LaValle - 2 kids, Jhumpa Lahiri - 2 kids, Colson Whitehead - 2 kids, Karen Russell - 2 kids to name a few. These writers also have lots of talent, but still...kids. Ford's advice is more relevant to how *he* became a writer, and while I'm pretty sure that he's not wrong, it's a truism that you're more likely to be successful at anything if you don't have kids. Ask any working parent about their career.
-
 <!--more-->
+
+I've heard Richard Ford offer this advice more than once and I hate it. He's pretty adamant about this nugget, but it's clearly ridiculous and extreme (as is some of his other advice, which maybe I'll write about separately). There are tons of great, successful writers who have kids: Michael Chabon + Ayelet Waldman - 4 kids, Emily Raboteau + Victor LaValle - 2 kids, Jhumpa Lahiri - 2 kids, Colson Whitehead - 2 kids, Karen Russell - 2 kids to name a few. These writers also have lots of talent, but still...kids. Ford's advice is more relevant to how *he* became a writer, and while I'm pretty sure that he's not wrong, it's a truism that you're more likely to be successful at anything if you don't have kids. Ask any working parent about their career.
 
 I'm focusing on the kids aspect here, but the idea that it's better to have a spouse to support you in your ambition is pretty obvious, though I'm declaring it similarly unnecessary. Virginia Woolf had it right when she talked about needing only "a room of her own and five hundred \[pounds\] a year," but the thing that rankles me is the idea that you *shouldn't* have kids. I agree that anything that isn't writing (in this example) is a roadblock, but I don't agree that it's an artistic death sentence.
 

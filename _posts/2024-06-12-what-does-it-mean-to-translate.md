@@ -4,6 +4,7 @@ excerpt_separator: "<!--more-->"
 tags:
   - translation
   - writing
+  - literature
 ---
 
 A couple years ago, when I most recently saw my wife’s uncle Richard, he’d asked me about my translation work. I translate mostly genre literature from the late 19th century and early 20th century (read: public domain) Latin America. Sometimes I translate contemporary prose and poetry, but not as often. I’m no professional, and while I read Spanish pretty well, I don’t have anywhere close to a native command, but I did study translation in grad school. Given that, Richard was curious to know more about the process. In particular, he wanted to know how translators knew their translation was “good” or “faithful” to the original. It was a good question, I said, but he had a narrower understanding of what translation was, or what it entailed.
