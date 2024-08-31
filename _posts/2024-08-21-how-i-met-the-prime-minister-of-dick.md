@@ -16,7 +16,11 @@ tags:
 
 <!--more-->
 
-I met PMD some time between 2013 and 2014 outside of The Strand bookstore in NYC. He flagged me down and showed me a copy of *Sausagehead* and told me that he was an aspiring artist just trying "to get his book out there." I was in grad school for creative writing, so I empathized deeply. He wanted $15 for it, but since I was broke and since the book is fewer than 25 pages and literally held together with duct tape and green cellophane I didn't exactly want to blow my food budget on it. He came down to $10 and since I was curious and irresponsible with money, I bought it.
+The Prime Minister of Dick (PMD) is an artist in NYC who specializes in dicks. [This article from Vice](https://www.vice.com/sv/article/the-prime-minister-of-dick-is-the-best-penis-artist-on-earth-666/) sums him up pretty well:
+
+> And make no bones about it: Dicktures—i.e., pictures of dicks—are what the Prime Minister of Dick traffics in. Born Michael Zwane, The Prime Minister of Dick (or PMD, for short) is a South African artist who specializes in rendering male genitalia in the most fascinating ways possible. Anthropomorphic dicks, monstrous dicks, colorful dicks, and creatures with dicks on their face and balls on their chin.
+
+I met PMD some time between 2013 and 2014 outside of The Strand bookstore in NYC. He flagged me down and showed me a copy of a book he had written called *Sausagehead* and told me that he was an aspiring artist just trying "to get his book out there." I was in grad school for creative writing, so I empathized deeply. He wanted $15 for it, but since I was broke and since the book is fewer than 25 pages and literally held together with duct tape and green cellophane I didn't exactly want to blow my food budget on it. He came down to $10 and since I was curious and irresponsible with money, I bought it.
 
 ![Sausagehead front cover]({{ site.url }}{{ site.baseurl }}/assets/images/sausagehead_front.jpg)
 
@@ -32,6 +36,10 @@ This artifact was made by someone who cared deeply about it. As a writer with a 
 
 I don't know if he was self-conscious about what people would think about his art, or whether he knew where his novel stood relative to "literature," but in the short interaction I had with him, he didn't seem to care. He's an off-the-chains guy who made equally off-the-chains art, which is as authentic as any artist could ever hope to be. I mean, he draws dicks for a living - every high school boy's dream job!
 
+This short documentary by Yair Vurnbrand showcases PMD's unbridled enthusiasm:
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/QEHR9xXkMr8?controls=0" frameborder="0" allowfullscreen></iframe>
+
 With pretty much everything I do, either on the job or in my writing, I often second-guess myself and wonder what other people will think of what I'm making. Will they see in it what I see? Will they *like* it? Will they think I've wasted their time? Whether PMD cares about what other people think or not, he's still doing the work he wants to do and he's proud of it. He's doing justice to his art in a way that few people have the courage to do.
 
-I aspire to his example. I want to put more things out in the world for people to see because maybe they'll find some value in it. Art still matters even if nobody sees it, but at least for me, hiding it feels like stopping short of the finish line. My website is a small way of pushing myself to be more like PMD, to say nothing, for now, about drawing dicks.
+I aspire to his example. I want to put more things out in the world for people to see because maybe they'll find some value in it, some joy. Art still matters even if nobody sees it, but at least for me, hiding it feels like stopping short of the finish line. My website is a small way of pushing myself to be more like PMD, to say nothing, for now, about drawing dicks.

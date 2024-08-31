@@ -45,7 +45,7 @@ There was a third part that I can't remember because barely anyone ever got to i
 
 Hardly anyone ever works on a brand new code base, so it made sense to ask a question that drops candidates into the unfamiliar.
 
-We used [Emily Bache's Supermarket Refactoring Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) such that we had two distinct versions of the code base: one for a refactoring exercise and one for a new feature (discounted bundles).
+We used [Emily Bache's Supermarket Refactoring Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) such that we had two distinct versions of the code base: one for a refactoring exercise and one for a new feature (discounted bundles).
 
 These two exercises were presented in different rounds of interview, with the new feature beginning with a refactored version of the code so that candidates aren't working with trash at the outset.
 
@@ -53,6 +53,8 @@ The code wasn't so overwhelming that most candidates couldn't wrap their heads a
 
 ### Good interviewing takes work
 
-It's difficult to write questions that mimic the on-the-job experience in the span of an hour-long interview. I don't think I'm a huge fan of take-home projects because, as an interviewer, you don't get to see the thought process. And as a candidate, you don't generally get the benefit of a conversation with an interviewer (this is not always the case). And sometimes, take-home projects require a ton of time that isn't compensated (and yes, I'm saying it should be, especially if it takes more than an hour or two, otherwise you, the company, have no skin in the game, and you should).
+It's difficult to write questions that mimic the on-the-job experience in the span of an hour-long interview. I don't think I'm a huge fan of take-home projects because, as an interviewer, you don't get to see the thought process. And as a candidate, you don't generally get the benefit of a conversation with an interviewer (this is not always the case). And sometimes, take-home projects require a ton of time that isn't compensated[^1].
 
 I would argue that putting forth the effort, especially if you're starting with something like Emily Bache's code katas, is well worth the cost in terms of both the relevance of the tests and the humaneness of the interviewing process. It's unreasonable to ask lazy questions and expect great results. I'm sure it's possible to find great matches using only Leetcode, but if interviewers don't think about why they ask those questions, they're going to hire candidates who are good at Leetcode instead of hiring candidates who are a better fit for the role itself. It's all the randomness with fewer possibilities.
+
+[^1]: And yes, I'm saying it should be, especially if it takes more than an hour or two, otherwise you, the company, have no skin in the game, and you should.

@@ -4,6 +4,8 @@ permalink: /writing/
 classes: wide
 ---
 
+Here's a list of unpublished things I've written or am currently writing.
+
 ## Short Stories
 "Probability Theory"
   * Southampton Review 2018 Short Short Fiction Contest - top 10 finalist
