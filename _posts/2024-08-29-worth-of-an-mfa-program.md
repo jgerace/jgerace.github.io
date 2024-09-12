@@ -48,6 +48,16 @@ With my $100k tuition, I could have taken a much lower mortgage, or invested for
 
 It would have been less of an issue if I had gone to a fully-funded or part-time program, but I didn't get into a fully-funded program and didn't like the offerings at the part-time programs. In any case, future MFA generations need to consider what else they could be doing with their time and money on top of tuition and living expenses.
 
+### The good parts
+
+Enrolling in a full-time program forced me to focus on writing, something I may not have been so conscientious about if I had done a part-time program, or decided against an MFA program. With lots of competing priorities, I know that I can get stretched thin and burned out pretty quickly if I'm really gunning to achieve a personal goal, so enrolling in an MFA program was a way to force my own hand timewise.
+
+And I did get to take a ton of literature classes that introduced me to lots of books and authors I otherwise would never have read. That and the commentary from professors and classroom discussions helped me improve my deep reading, honed my literary vocabulary, and offered a pretty detailed and rounded perspective on the pieces.
+
+I don't know that workshops were any better or worse. It should be easy to find good workshop leaders in big cities, especially somewhere like NYC, but a workshop can really only be as good as the people in it. I've been lucky to have good workshops both in an out of MFA programs.
+
+I wasn't very good about keeping in touch with classmates and teachers - part of this was due to COVID and moving away from NYC - but anyone who's more community-minded than I am should be able to make valuable, lasting connections in an MFA program. I'm not sure that I would've found a way to make similar connections in the literary sphere outside of an MFA.
+
 ### No regrets
 
 Whatever path the aspiring writer chooses, I recommend giving 100% to it, otherwise it becomes easier to regret the paths not taken. For the limited time an MFA program provides guidance, writers should take advantage to the fullest extent and get what they signed up for.
