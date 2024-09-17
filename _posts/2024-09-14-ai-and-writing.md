@@ -157,7 +157,7 @@ Its suggestion:
 > 
 > This outline gives room for mystery, magic, and growth for the siblings as they navigate the challenges of a new town and a hidden magical world. You can expand on any of the chapters or add subplots as you develop the story!
 
-I don't hate this idea either! I don't think I would structure the novel that way, but it has an arc and I still have to make a zillion other decisions that could shape the story into something entirely different. I'm be curious to know if Ted Chiang would consider the end result of this process "art."
+I don't hate this idea either! I don't think I would structure the novel that way, but it has an arc and I still have to make a zillion other decisions that could shape the story into something entirely different. I'm curious to know if Ted Chiang would consider the end result of this process "art."
 
 ### Rubber Duck Debugging
 
