@@ -7,7 +7,7 @@ tags:
   - ai
 ---
 
-Machine-generated writing has been around for a while. I used to run different data sets from Project Gutenberg through a Markov chain script I had written and I used to play with neural networks, then came GPT-2, which blew all of the previous stuff away. Still, I wouldn't have wanted to read anything those technologies wrote. They created an occasional interesting line and image, which made them more apt to poetry than to prose, but they just weren't coherent enough to produce anything of real value on their own.
+Machine-generated writing has been around for a while. I used to run different data sets from Project Gutenberg through a [Markov chain script](https://github.com/jgerace/literarylovechild) I had written and I used to play with neural networks, then came GPT-2, which blew all of the previous stuff away. Still, I wouldn't have wanted to read anything those technologies wrote. They created an occasional interesting line and image, which made them more apt to poetry than to prose, but they just weren't coherent enough to produce anything of real value on their own.
 
 <!--more-->
 
@@ -15,11 +15,13 @@ Not that I want computers to write for me - writing is a hobby and I don't want 
 
 Ted Chiang recently [wrote an article for the New Yorker](https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art) about why AI isn't going to make art, and there's an emphasis on "art" in this article rather than, I imagine, pure entertainment or business-related writing. I agree with him on this point, but the article's also been been cited by [decriers of NaNoWriMo's recent statement](https://lithub.com/nanowrimo-defends-writing-with-ai-and-pisses-off-the-whole-internet/) that they will not categorically condemn the use AI as a tool. In this case, I stand with NaNoWriMo's take: who's to say what's useful to someone who wants to bring their idea to the page?
 
-I certainly object to current LLMs that have been trained on copyrighted material without the permission of copyright holders, but that's not the argument here. Let's say we're dealing with an LLM that isn't fraught with copyright issues.
+[NaNoWriMo's subsequent clarification](https://nanowrimo.org/a-note-to-our-community-about-our-comments-on-ai-september-2024/) emphasizes their commitment to fostering inclusivity:
 
-There's a failure of imagination and empathy on the part of those who condemn NaNoWriMo's stance on AI, and I suspect more than a touch of elitism about art and self-expression.
+> Taking a position of neutrality was not an abandonment of writers’ legitimate concerns about AI. It was an acknowledgment that NaNoWriMo can’t maintain a civil, inclusive community if we allow selective intolerance. We absolutely believe that AI must be discussed and that its ethical use must be advocated-for. What we don’t believe is that NaNoWriMo belongs at the forefront of that conversation.
 
-To be clear: machine-generated stories are not for me. But AI is not categorically bad. I believe there could be a reasonable place for it in anyone's writing process.
+I, like NaNoWriMo, object to LLMs that have been trained on copyrighted material without the permission of copyright holders, but that's not the argument here. There's a failure of imagination and empathy on the part of those who have condemned NaNoWriMo's stance on AI, and I suspect more than a touch of elitism about art and self-expression.
+
+To be clear: machine-generated stories are not for me, but AI is not categorically bad. I believe there could be a reasonable place for it in anyone's writing process. Here are a few ways of integrating AI into your writing process.
 
 ### Writing Prompts
 
@@ -167,6 +169,6 @@ Ask the LLM for suggestions and reject them all! Maybe you aren't having a good 
 
 ### Relax just a tad, people
 
-It's weird to expect a categorical rejection of any technology as a viable tool. Since when do we think it's reasonable to take an un-nuanced view of anything? Yes, generative AI has its issues: copyright infringement, questions of authorship and IP rights, data harvesting, false information, laziness, a deluge of sub par work. All that gives me the heebie jeebies and it's more than enough reason for me, personally, to boycott AI altogether for now, but I bristle at the idea that AI shouldn't be used in the writing process at all by anyone.
+It's unfair to expect a categorical rejection of any technology as a viable tool. Since when do we think it's reasonable to take an un-nuanced view of anything? Yes, generative AI has its issues: copyright infringement, questions of authorship and IP rights, data harvesting, false information, laziness, a deluge of sub par work. All that gives me the heebie jeebies and it's more than enough reason for me, personally, to keep my distance, but I bristle at the idea that AI shouldn't be used in the writing process at all by anyone.
 
-Anything can be a valuable tool if it helps people work through obstacles to put their ideas on paper, to make something that truly resonates with their own vision. This situation feels like an instance of the writing community overreacting in response to a technology that has been poorly-wielded, but this is largely a people problem. And I definitely don't think NaNoWriMo should be in the business of deciding how people should write. It's well within our capacity to extend our fellow writers a little room to figure out what process works best for them without feeling so threatened.
+We should encourage writers, especially writers just beginning on their journies, to leverage available tools if it helps them work through obstacles to put their ideas on paper, to make something that truly resonates with their own vision. This situation feels like an instance of the writing community overreacting in response to a technology that has been poorly-wielded. And I definitely don't think NaNoWriMo should be in the business of deciding how people should write. It's well within our capacity to extend our fellow writers a little room to figure out what process works best for them without feeling so threatened.
