@@ -1,5 +1,5 @@
 ---
-title: "AI and writing: Everyone needs to chill"
+title: "AI and the writing process: Creative catalyst, and sympathy for NaNoWriMo"
 excerpt_separator: "<!--more-->"
 classes: wide
 tags:
