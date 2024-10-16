@@ -57,11 +57,11 @@ In a **behavioral/values-based discussion** an interviewer might ask you about h
 - Tell me about a time you encountered a conflict with a colleague. What was the issue and how did you resolve it?
 - Tell me about a project that at first seemed insurmountable. How did you take it from something that seemed impossible to something accomplishable?
 
-A **project retrospective discussion** is typically a deep dive into the details of one particuliar project you led or were involved with. It might be technical in nature or from a more project management perspective (in which case it's very similar to the behavioral kind of discussion).
+A **project retrospective discussion** is typically a deep dive into the details of one particular project you led or were involved with. It might be technical in nature or from a more project management perspective (in which case it's very similar to the behavioral kind of discussion).
 
 You talk about the context, the whys of the project, then get into the hows. You might talk about technical decisions, design decisions, architectural details, conflict resolution, what you might have done differently.
 
-Behavioral and project retro interview rounds, which you'll see at basically every company, rely heavily on your long-term memory of details. This, as you might imagine, can be an issue if you're on the market for a long time, and potentially even moreso if you're fully unemployed and no longer thinking about the old code base.
+Behavioral and project retro interview rounds, which you'll see at basically every company, rely heavily on your long-term memory of details. This, as you might imagine, can be an issue if you're on the market for a long time, and potentially even more so if you're fully unemployed and no longer thinking about the old code base.
 
 ### How to prepare for behavioral and project retrospective interviews
 
@@ -71,7 +71,7 @@ Enter your developer journal.
 
 During a layoff, you might not have the presence of mind to back up your notes if you had any in the first place. Or, if you're still at your job, you might be stretched a little thin while sending out resumes and grinding Leetcode. With enough time behind you, it may be difficult to reconstruct the context and timelines coherently during this process, or worse: while under pressure in a live interview.
 
-Your developer journal can act as your outbrain for this process. As the now-canonical source of detail, you can easily review what amounts to a series of case studies so you can refresh your memory and prepare answers to those experience-based questions.
+Your developer journal can act as your out brain for this process. As the now-canonical source of detail, you can easily review what amounts to a series of case studies so you can refresh your memory and prepare answers to those experience-based questions.
 
 Practice relating your anecdotes by using the [STAR method](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/) to ensure your narrative is well-structured.
 
