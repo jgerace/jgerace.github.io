@@ -31,9 +31,9 @@ As your projects progress, or even as part of your own private retrospective, re
 
 Compare the outcomes to the state of the system before your project went live. What kind of data or graphs can illustrate the impact of the change?
 
-This acts as a record of your career journey. As a reference it can help keep you from committing the same mistakes over and over again. And it can help ensure that you apply what you've learned to future projects.
+This acts as a record of your career journey. As a reference it can help keep you from committing the same mistakes over and over again. And it can help remind you to apply what you've learned in your future projects.
 
-And it can help you in a job search!
+Plus, it can help you in a job search!
 
 ### Developer journals and your next opportunity
 
@@ -45,31 +45,27 @@ The interview process generally requires a few different types of discussions:
 - Behavioral/Values
 - Project Retrospective
 
-Coding is often easy to study for - either you're grinding Leetcode or you're coding during your copious amounts of free time - as is systems design and architecture. There's no shortage of books and websites that can help you bone up on all that stuff.
+There are tons of resources online to help you prepare for **coding** and **systems design** interviews. Grind Leetcode questions, work on personal projects. Read [*Domain Driven Design*](https://bookshop.org/p/books/domain-driven-design-tackling-complexity-in-the-heart-of-software-eric-evans/115006?ean=9780321125217), [*Philosophy of Software Design*](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201), [*Architecting for Scale*](https://bookshop.org/p/books/architecting-for-scale-how-to-maintain-high-availability-and-manage-risk-in-the-cloud-lee-atchison/14043500). So many resources!
 
-Troubleshooting/incident management discussions are fewer and farther between in my experience, but this is the kind of thing I enjoy and which tends to rely more on your actual work experience than data structures and algorithms questions.
+**Troubleshooting/incident management** discussions are less common, but this is the kind of thing I enjoy and which tends to rely more on your actual work experience than data structures and algorithms questions do.
 
 The other two rounds are similar to each other:
 
-### The behavioral/values-based discussion
-
-An interviewer might ask you about how you've handled adversity and conflict over the course of your career. They'll ask you to provide concrete examples and ask you to provide context. The questions are typically phrased in the form of "Tell me about a time when...":
+In a **behavioral/values-based discussion** an interviewer might ask you about how you've handled adversity and conflict over the course of your career. They'll ask you to provide concrete examples and ask you to provide context. The questions are typically phrased in the form of "Tell me about a time when...":
 
 - Tell me about a time you went above and beyond for a client/customer/team/member/user/friend.
 - Tell me about a time you encountered a conflict with a colleague. What was the issue and how did you resolve it?
 - Tell me about a project that at first seemed insurmountable. How did you take it from something that seemed impossible to something accomplishable?
 
-### The project retrospective discussion
-
-This is typically a deep dive into the details of one particuliar project you led or were involved with. It might be technical in nature or from a more project management perspective (in which case it's very similar to the behavioral kind of discussion).
+A **project retrospective discussion** is typically a deep dive into the details of one particuliar project you led or were involved with. It might be technical in nature or from a more project management perspective (in which case it's very similar to the behavioral kind of discussion).
 
 You talk about the context, the whys of the project, then get into the hows. You might talk about technical decisions, design decisions, architectural details, conflict resolution, what you might have done differently.
 
-The two other types, which you'll see at basically every company, rely heavily on your long-term memory of details. This, as you might imagine, can be an issue if you're on the market for a long time, and potentially even moreso if you're fully unemployed and no longer thinking about the old code base.
+Behavioral and project retro interview rounds, which you'll see at basically every company, rely heavily on your long-term memory of details. This, as you might imagine, can be an issue if you're on the market for a long time, and potentially even moreso if you're fully unemployed and no longer thinking about the old code base.
 
-### How to prepare for these rounds
+### How to prepare for behavioral and project retrospective interviews
 
-Part of the goal of these types of rounds is to suss out how well you communicate your experience! But communicating all these notable events and structuring your stories depends on how well you actually recall the details.
+Interviewers in these rounds are trying to assess how well you communicate your experience. But communicating all these notable events and structuring your stories depends on how well you actually recall the details.
 
 Enter your developer journal.
 
@@ -79,4 +75,4 @@ Your developer journal can act as your outbrain for this process. As the now-can
 
 Practice relating your anecdotes by using the [STAR method](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/) to ensure your narrative is well-structured.
 
-That's really it. I've been trying to retroactively create a developer journal for myself from the notes I did save, but there's only so much detail I can remember about the projects I worked on over the course of my 8-year tenure at my last job, let alone over my entire career! There's no resource on the internet that can recall your job experience for you, so do yourself a favor and make the resource future-you would want.
+That's really it. I've been trying to retroactively create a developer journal for myself from the notes I did save, but there's only so much detail I can remember about the projects I worked on over the course of my 8-year tenure at my last job, let alone over my entire career! There's no resource on the internet that can recall your job experience for you, so do yourself a favor and make the resource that future-you would want.
