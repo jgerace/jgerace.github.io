@@ -1,12 +1,12 @@
 ---
-title: "Good readers make better writers"
+title: "Good readers make better writers - guidelines for critiquing work from your peers (and yourself!)"
 excerpt_separator: "<!--more-->"
 tags:
   - writing
   - workshop
 ---
 
-There's nothing better for a writer's growth than having a captive readership forced to offer feedback. But let's face it: your mom is never going to like your short stories and your friends say they'll read them and give honest feedback, but they definitely won't even open the document. Hence, workshops!
+There's nothing more nourishing to a writer's growth than having a captive readership forced to offer feedback. But let's face it: your mom is never going to like your short stories and your friends say they'll read them and give honest commentary, but they definitely won't even open the document. Hence, workshops!
 
 <!--more-->
 
@@ -14,9 +14,11 @@ Workshops have been a part of my writing life pretty consistently for well over 
 
 I've participated in workshops with people who didn't give notes, people who wanted to prove they were the smartest person in the room, people who wanted to push their style on everyone, people who've stormed out of the room because they disagreed with the comments they received. Some have earned six-figure book deals, some have won national-level awards, some have quit writing altogether. Workshops have such a breadth of talent and personality and I love it, but those characteristics don't necessarily make a workshop valuable from a writer's perspective.
 
-It's impossible to make a good workshop on your own. A lot of the onus is on the workshop leader to ensure that everyone contributes to the extent that their experience will allow. But it bears enumerating some guidelines that I've come to follow over the years for what makes a good workshop member so we don't end up being that one weirdo that everyone talks about years later.
+It's impossible to make a good workshop on your own. A lot of the onus is on the workshop leader to ensure that everyone contributes to the extent that their experience will allow. But it bears enumerating some guidelines that I've come to follow over the years for what makes a good workshop reader so we don't end up being that one weirdo that everyone talks about years later.
 
 Really, this advice applies to anyone acting as a reader with an eye toward critique, in or out of a workshop. The process is the same, at least for me, whether I'm workshopping a submission in a weekly writing group, or critiquing a friend's work.
+
+Remember: The practice of reading and critiquing is essential to improving your own skill as a writer. Apply these techniques when you edit your own work!
 
 ### Read it twice
 
