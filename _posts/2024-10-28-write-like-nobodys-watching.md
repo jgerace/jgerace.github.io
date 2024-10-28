@@ -33,7 +33,7 @@ Do we ever notice those similarities? Of course. We look at them as homage or th
 
 [George Lucas fully acknowledges stories](https://en.wikipedia.org/wiki/Star_Wars_sources_and_analogues) from world religions, medieval history, and mid-20th century space operas as part of the inspiration for *Star Wars.*
 
-To our imaginary writer I say: Go ahead and write your version. Nobody's watching you. I guarantee that whatever you end up with will be something only you could have written. You'll have to make decisions along the way that will add up to a story that's completely different than what you thought it would be. You'll have moments of inspiration where you'll say to yourself, "Wouldn't it be cool if...?" Yes, it *would* be pretty cool!
+To our imaginary writer I say: Go ahead and write your version. I guarantee that whatever you end up with will be something only you could have written. You'll have to make decisions along the way that will add up to a story that's completely different than what you thought it would be. You'll have moments of inspiration where you'll say to yourself, "Wouldn't it be cool if...?" Yes, it *would* be pretty cool!
 
 ### Writing should be rewarding
 
