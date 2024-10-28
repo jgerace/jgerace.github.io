@@ -16,8 +16,6 @@ One idea in particular stands out: keeping a developer journal.
 
 ### What's a developer journal?
 
-I'm glad you asked!
-
 A developer journal is a place to document your projects for yourself. It's a place to record whatever you feel is compelling about the project, the process, mistakes you made, things you learned, etc. It can really be whatever you want it to be.
 
 Start by record the context behind the projects you're working on - maybe focus only on the bigger ones - think about the "why" of your projects, as in why are you doing the project?
