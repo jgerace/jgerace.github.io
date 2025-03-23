@@ -6,6 +6,8 @@ tags:
   - literature
 ---
 
+![Front cover of Bright Lights, Big City by Jay McInerney]({{ site.url }}{{ site.baseurl }}/assets/images/cover-bright-lights-big-city.jpeg){: .align-center}
+
 Jay McInerney's *Bright Lights, Big City* is the kind of book I think of when I think of short literary novels. It's the kind of book I might expect from someone with a Master's degree in writing to produce, and something I might expect to read in a Master's program. One of those two characteristics doesn't necessarily produce the other, so it underscores how craft-forward the novella is. And it's an engrossing story to boot.
 
 <!--more-->

@@ -6,6 +6,8 @@ tags:
   - project
 ---
 
+![Diagram of the I Ching by Unknown author - Perkins, Franklin. Leibniz and China: A Commerce of Light. Cambridge: Cambridge UP, 2004. 117. Print., Public Domain, https://commons.wikimedia.org/w/index.php?curid=36231359]({{ site.url }}{{ site.baseurl }}/assets/images/i-ching-diagram.jpeg){: .align-center}
+
 * [Consult the I Ching!](https://www.johngerace.com/iching/)
 * [View the source on Github!](https://github.com/jgerace/iching)
 

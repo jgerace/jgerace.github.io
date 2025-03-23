@@ -7,6 +7,8 @@ tags:
   - depression
 ---
 
+![Front cover of The Pout Pout Fish by Deborah Diesen - from Macmillan Publishers - https://us.macmillan.com/books/9780374312190/thepoutpoutfish/]({{ site.url }}{{ site.baseurl }}/assets/images/cover-pout-pout-fish.jpeg){: .align-center}
+
 One of the perennial favorites with my kids over the course of their toddlerhoods has been _The Pout-Pout Fish_ written by Deborah Diesen and illustrated by Dan Hanna. It's a cute story in rhyming couplets about Mr. Fish, who's always down in the dumps: He's a pout pout fish with a pout pout face, so he spreads the dreary wearies all over the place!
 
 <!--more-->

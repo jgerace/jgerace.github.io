@@ -6,7 +6,9 @@ tags:
   - horror
 ---
 
-(Spoilers abound)
+![Theatrical release poster for Hereditary - from https://en.wikipedia.org/wiki/File:Hereditary.png]({{ site.url }}{{ site.baseurl }}/assets/images/poster-hereditary.png){: .align-center}
+
+(Warning: Spoilers abound!)
 
 *Hereditary* is one of the most profoundly disturbing movies I have ever watched. I found myself muttering throughout the thing: "Oh dang, "Oh no," "What the fuck!" <!--more--> I can honestly say I was shocked and terrified like I haven't been by a horror movie in years. My gut continued to quiver well after the movie ended. The only other movie that came anywhere close was the original *Blair Witch Project*, which I saw when it first came out and which was unlike any other scary movie I'd ever seen until then.
 

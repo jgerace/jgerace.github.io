@@ -6,7 +6,9 @@ tags:
   - literature
 ---
 
-Spoilers abound!
+![Front cover of Love in the Time of Cholera by Gabriel García Márquez - from https://www.goodreads.com/book/show/118039.Love_in_the_Time_of_Cholera]({{ site.url }}{{ site.baseurl }}/assets/images/cover-love-in-the-time-of-cholera.jpeg){: .align-center}
+
+Warning: Spoilers abound!
 
 Wow, this book really didn't age well. It's a sex-obsessed novel in which everyone's fucking like they have nothing else to do. The only one who doesn't is Fermina Daza, the object of our main character's desire.
 

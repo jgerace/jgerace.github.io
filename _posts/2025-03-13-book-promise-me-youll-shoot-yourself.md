@@ -6,6 +6,8 @@ tags:
   - literature
 ---
 
+![Front cover of Promise Me You'll Shoot Yourself by Florian Huber - from The Hachette Book Group - https://www.hachettebookgroup.com/titles/florian-huber/promise-me-youll-shoot-yourself/9780316534345/]({{ site.url }}{{ site.baseurl }}/assets/images/cover-promise-me-youll-shoot-yourself.jpeg){: .align-center}
+
 This was not a good book to read before bed! I knew this was probably going to be the case, but I ignored my better judgment since I wanted to read it and I don't have time during the day. The suicide epidemic of post-World War II Germany is not light reading. Fascinating though.
 
 Florian Huber (in Imogen Taylor's translation) describes the grisly acts in vivid detail, but with a matter-of-fact restraint that, from what I understand, captures the matter-of-fact perspective that many of these regular German people took toward the process and final act of ending their own lives and the lives of their spouses and children.

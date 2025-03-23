@@ -5,6 +5,9 @@ tags:
   - book review
   - literature
 ---
+
+![Front cover of Interior Chinatown by Charles Yu. By https://www.penguinrandomhouse.com/books/216162/interior-chinatown-by-charles-yu/, Fair use, https://en.wikipedia.org/w/index.php?curid=63450157]({{ site.url }}{{ site.baseurl }}/assets/images/cover-interior-chinatown.png){: .align-center}
+
 This book has been on my to-read list for a while. I've been a pretty big fan of Charles Yu's short stories for their orignal formats - "Fable" was told as a series of narrative exercises during a therapy session, "Hero Absorbs Major Damage" was told as an RPG with side commentary from an ancillary character in its publication on Electric Literature - their creative settings, and their deep explorations of human emotion. They're basically the epitome of Viktor Shklovsky's idea of [defamiliarization](https://en.wikipedia.org/wiki/Defamiliarization).
 
 *Interior Chinatown* is structured as a screenplay about Willis Wu, Generic Asian Man, as he attempts to earn the coveted title of Kung Fu Man. His reality slides between his real life with his parents and then his wife and daugher, and a police procedural in which he assists an investigation to discover where Older Brother has gone. It was honestly pretty confusing at first to figure out what the characters' reality was, but the book does a pretty good job teaching the reader not to think too hard about it. The generic roles of the Asian characters are the focus, how they never seem to get starring roles, and even when they think they do, they're still just stereotypes. What's really happening in Willis' life isn't the point because it's all happening.

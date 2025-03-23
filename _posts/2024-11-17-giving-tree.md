@@ -6,6 +6,9 @@ tags:
   - literature
   - life
 ---
+
+![Front cover of The Giving Tree by Shel Silverstein. Fair use, https://en.wikipedia.org/w/index.php?curid=4924961]({{ site.url }}{{ site.baseurl }}/assets/images/cover-the-giving-tree.jpeg){: .align-center}
+
 Shel Silverstein's *The Giving Tree* has been around since 1964, and I've seen it in basically every library and classroom I've ever entered. Every parent I know either has a copy or is, no doubt, about to receive one as soon as their eldest is old enough to sit through a longer children's story. It's a wonderful book, but I've heard some people interpret it as a story that encourages children to give without boundaries, which is awful. It's easy for young readers to get the wrong message if they read it on their own because the message is pretty subtle as far as kid's books go.
 
 The book narrates the relationship between a tree and a boy as the boy ages from a child to an old man. In the beginning, the boy plays with the tree, climbing on her or swinging on her branches. This is great and everyone has an amazing time. Then as the boy ages he begins to ask for more - apples to sell, wood for a house, then more wood for a boat. The tree gives physical parts of herself to the boy. Conspicuously to an adult, the boy never gives anything in return.
