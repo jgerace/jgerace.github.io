@@ -1,6 +1,6 @@
 ---
 title: "Software interviews are kind of messed up"
-excerpt_separator: "<!--more-->"
+excerpt: "Everyone in the tech industry knows that software engineering interviews are awful and very few companies have done something about it."
 tags:
   - software
   - interviewing
@@ -9,9 +9,7 @@ tags:
   - leetcode
 ---
 
-This is a thing everyone in the software business knows and very few companies have fixed. Now that I've been on the job market for several months, I've had an updated view of what it's like from the candidate's perspective. At the outset of my job search, I was grinding Leetcode questions because that's what you do. And I got totally slaughtered! My 18 years of professional experience had little bearing on the outcome of this kind of interview!
-
-<!--more-->
+Everyone in the tech industry knows that software engineering interviews are awful and very few companies have done something about it. Now that I've been on the job market for several months, I've had an updated view of what it's like from the candidate's perspective. At the outset of my job search, I was grinding Leetcode questions because that's what you do. And I got totally slaughtered! My 18 years of professional experience had little bearing on the outcome of this kind of interview!
 
 Phone screens are usually a data structures/algorithms question that seeks to weed candidates out. I'm guilty of running this kind of interview myself for years. I own that and I will no doubt do penance in the afterlife for my sins. But during that time I also began to feel like there was a better way.
 

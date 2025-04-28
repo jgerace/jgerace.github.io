@@ -1,6 +1,6 @@
 ---
 title: "Book Review: _A Dirty Job_ by Christopher Moore"
-excerpt_separator: "<!--more-->"
+excerpt: "This is a book."
 tags:
   - book review
   - literature
@@ -9,8 +9,6 @@ tags:
 ![Front cover of A Dirty Job by Christopher Moore. By Christopher Moore - http://www.isfdb.org/cgi-bin/pl.cgi?257433, Fair use, https://en.wikipedia.org/w/index.php?curid=4322719]({{ site.url }}{{ site.baseurl }}/assets/images/cover-a-dirty-job.jpeg){: .align-center}
 
 Christopher Moore, as an author, has been someone I've heard about at a low level for a pretty long time, but who I've never read. I was familiar with *Lamb*, and I guess in keeping with the emerging theme this year of reading stuff I've been meaning to read, I picked up *A Dirty Job*. Not that I'd heard anything special about it - it was just the one of his books that wasn't the middle of a series and that happened to be available from the library at the time. It has a good rating on Goodreads, for whatever that's worth, and I was optimistic about it.
-
-<!--more-->
 
 I went into it knowing that it wasn't going to be a serious book at all, and I was really looking forward to a lighter read after a bunch of heavier reads. But the humor turned out to be pretty crude and childish, the kind of thing I would've enjoyed in college or high school: lots of sex jokes, a smattering of gay jokes, random moments of the main character talking in ethnic slang. Definitely low-brow stuff and a little disappointing, at least in its lack of variety.
 

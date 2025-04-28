@@ -1,6 +1,6 @@
 ---
 title: "Book Review: _Promise Me You'll Shoot Yourself_ by Florian Huber"
-excerpt_separator: "<!--more-->"
+excerpt: "Unfortunately, sometimes regret only appears once you lose."
 tags:
   - book review
   - literature
@@ -20,7 +20,7 @@ I'd only previously heard of how the Goebbles family poisoned their kids in Hitl
 
 The book follows several people based on memoirs they'd written about that time, but the first half of the book focuses on the suicide epidemic, and the second focuses on the lead-up to World War II. It details how Hitler came to power and how basically everyone got swept up by Nazi propaganda, how they began to overlook or fail to object to the everyday persecution (no concentration camps yet) committed by the party against their Jewish neighbors.
 
-If Erik Larson's book *In the Garden of Beasts* is an American's take of 1930s Germany, this book is its counterpoint from a German's point of view that extends to the post-war era. It's an affecting, insightful view of complicity and guilt and shame.
+If Erik Larson's book *In the Garden of Beasts* is an American's take of 1930s Germany, this book is its counterpoint from a German's point of view that extends to the post-war era. It's an affecting, insightful view of complicity and guilt and shame.
 
 Current news outlets and social media have drawn comparisons between Nazi Germany and America's turn toward right wing extremism. It's pretty difficult not to. This book, published in 2019, doesn't comment on Trump's first term, but the description of Germany's trajectory feels so on-the-nose with respect to 2024 America.
 

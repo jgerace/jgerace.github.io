@@ -1,6 +1,6 @@
 ---
 title: "Book Review: _Bright Lights, Big City_ by Jay McInerney"
-excerpt_separator: "<!--more-->"
+excerpt: "I related to this book a little more than I'm comfortable with..."
 tags:
   - book review
   - literature
@@ -9,8 +9,6 @@ tags:
 ![Front cover of Bright Lights, Big City by Jay McInerney]({{ site.url }}{{ site.baseurl }}/assets/images/cover-bright-lights-big-city.jpeg){: .align-center}
 
 Jay McInerney's *Bright Lights, Big City* is the kind of book I think of when I think of short literary novels. It's the kind of book I might expect from someone with a Master's degree in writing to produce, and something I might expect to read in a Master's program. One of those two characteristics doesn't necessarily produce the other, so it underscores how craft-forward the novella is. And it's an engrossing story to boot.
-
-<!--more-->
 
 It's punchy with vivid prose and a rare use of second-person POV. I was struck by how easily I slipped into the world of the unnamed protagonist. McInerny doesn't seem to spoon-feed unless it's long swaths of background about family or colleagues. Everything else we get in-scene, dramatized, which I appreciated.
 

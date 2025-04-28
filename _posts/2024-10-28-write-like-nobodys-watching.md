@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate Writing Advice: Write like nobody's watching"
-excerpt_separator: "<!--more-->"
+excerpt: "You just gotta let yourself do what you like."
 tags:
   - writing
   - literature
@@ -10,8 +10,6 @@ tags:
 ---
 
 I'm convinced that this is the oldest story in the world: a writer has a great idea. They're brimming with enthusiasm and pumped to get their ideas on paper. Writing is a long, arduous process, but this story is totally going to be worth it. They write a chapter, maybe a second. They begin to see holes in the story, they feel like they're maybe not ready to write something so complicated. They notice similarities to other great stories they admire -- really popular ones. They realize that, actually, their story isn't very original at all, that it's so similar to these other things that they couldn't possibly allow themselves to write their version, something that wouldn't be anything more than a cheap knockoff. Nobody would read it and on the off chance that someone did, they'd ridicule it for being so derivative. They'd mock the author for having wasted everyone's time. Discouraged and ashamed, the writer quits and their great idea, the idea they once loved so dearly, never gets the chance to grow and live in the world.
-
-<!--more-->
 
 It's a shame. The writer turns away from a hobby -- at least for now -- that they could have loved. They could have written that first story and learned from it and wrote another, then another, then another, each one better than the last, until they grew into more of the writer they wanted to be.
 

@@ -1,6 +1,6 @@
 ---
 title: "Movie Review: _Hereditary_: So messed up, so awesome"
-excerpt_separator: "<!--more-->"
+excerpt: "Holy crap, what an experience!"
 tags:
   - movie review
   - horror

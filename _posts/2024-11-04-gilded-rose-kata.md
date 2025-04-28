@@ -1,6 +1,6 @@
 ---
 title: "The Senior Engineer's Guide: The Gilded Rose Code Kata"
-excerpt_separator: "<!--more-->"
+excerpt: "I don't much like the solutions I've seen, so I wrote my own."
 classes: wide
 tags:
   - software

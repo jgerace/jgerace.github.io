@@ -1,6 +1,6 @@
 ---
 title: "Book Review: _Interior Chinatown_ by Charles Yu"
-excerpt_separator: "<!--more-->"
+excerpt: "Maybe some day I'll become Kung Fu Dad too..."
 tags:
   - book review
   - literature

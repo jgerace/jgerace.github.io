@@ -1,14 +1,12 @@
 ---
 title: "A developer journal can help you get your next software engineering job"
-excerpt_separator: "<!--more-->"
+excerpt: "Or: How I can do myself a favor and stop relying on my terrible memory."
 tags:
   - software
   - interviewing
   - career
 ---
 As an unemployed Senior Software Engineer who's been on the job hunt for over 5 months as of this writing, I've had ample time to reflect on my tenure at my last company. Although my departure was not of my own volition - layoffs, ugh - I've been thinking about what I could have done to better prepare myself for a job search.
-
-<!--more-->
 
 I've done the requisite grinding of Leetcode problems and applied to every job posting that seemed even the tiniest bit relevant, but it's been one of the toughest job markets I've ever seen, and candidates really have to be on point to get an offer. Clearly this has not been me! Given that, an ongoing discussion with myself has been a sort of retrospective to identify strategies or processes that could help shorten a future job search.
 

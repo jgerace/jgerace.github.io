@@ -1,6 +1,6 @@
 ---
 title: "YAML keeps my recipes looking nice"
-excerpt_separator: "<!--more-->"
+excerpt: "I really just want to find ways to make my life easier."
 tags:
   - food
   - software
@@ -10,7 +10,7 @@ As a dedicated home cook, I've accumulated a ton of recipes over the years. Some
 
 I found this [Recipe schema on Schema.org](https://schema.org/Recipe), which seems to be a pretty standard way of storing recipes across the web because it's parseable by search engines, and used for indexing, but for my home website, it seemed like overkill. I didn't want to migrate plain text to this JSON format because of how many structures there are, and I couldn't easily write a script to automate the job because my recipes were so unstructured.
 
-So, I came up with my own format in YAML. It's easily integrated into Jekyll websites as front matter, it's more human readable as YAML than as JSON, and  I can write a script to migrate to/from JSON in the future if I really had to.
+So, I came up with my own format in YAML. It's easily integrated into Jekyll websites as front matter, it's more human readable as YAML than as JSON, and I can write a script to migrate to/from JSON in the future if I really had to.
 
 Here's what I came up with:
 

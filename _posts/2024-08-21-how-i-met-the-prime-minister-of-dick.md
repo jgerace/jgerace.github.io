@@ -1,6 +1,6 @@
 ---
 title: "How I met The Prime Minister of Dick and learned how to do my thing"
-excerpt_separator: "<!--more-->"
+excerpt: "A fervent belief in oneself is infectious."
 tags:
   - software
   - writing
@@ -13,8 +13,6 @@ tags:
 
 > If you wind up with a boring, miserable life because you listened to your mother, your Dad, your priest, to some guy on television, to any of the people telling you how to do your shit, then you deserve it.
 > <cite>Frank Zappa</cite>
-
-<!--more-->
 
 The Prime Minister of Dick (PMD) is an artist in NYC who specializes in dicks. [This article from Vice](https://www.vice.com/sv/article/the-prime-minister-of-dick-is-the-best-penis-artist-on-earth-666/) sums him up pretty well:
 

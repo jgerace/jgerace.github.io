@@ -1,6 +1,6 @@
 ---
 title: "_The Giving Tree_ really stresses me out"
-excerpt_separator: "<!--more-->"
+excerpt: "This book is for kids???"
 tags:
   - children's books
   - literature

@@ -1,6 +1,6 @@
 ---
 title: "Book Review: _Love in the Time of Cholera_ by Gabriel García Márquez"
-excerpt_separator: "<!--more-->"
+excerpt: "Thanks, but no thanks."
 tags:
   - book review
   - literature

@@ -1,6 +1,6 @@
 ---
 title: "New Project: I Ching - The Book of Change"
-excerpt_separator: "<!--more-->"
+excerpt: "I love using the I Ching as a meditation tool. You should give it a try!"
 tags:
   - software
   - project

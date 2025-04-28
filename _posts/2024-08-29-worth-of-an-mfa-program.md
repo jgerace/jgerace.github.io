@@ -1,6 +1,6 @@
 ---
 title: "The worth of an MFA program is always going to be a mystery"
-excerpt_separator: "<!--more-->"
+excerpt: "Is it worth pursuing an MFA?"
 tags:
   - writing
   - mfa

@@ -1,6 +1,6 @@
 ---
 title: "Depression and bad friend advice in _The Pout-Pout Fish_"
-excerpt_separator: "<!--more-->"
+excerpt: "I feel bad for Mr. Fish..."
 tags:
   - children's books
   - literature
@@ -10,8 +10,6 @@ tags:
 ![Front cover of The Pout Pout Fish by Deborah Diesen - from Macmillan Publishers - https://us.macmillan.com/books/9780374312190/thepoutpoutfish/]({{ site.url }}{{ site.baseurl }}/assets/images/cover-pout-pout-fish.jpeg){: .align-center}
 
 One of the perennial favorites with my kids over the course of their toddlerhoods has been _The Pout-Pout Fish_ written by Deborah Diesen and illustrated by Dan Hanna. It's a cute story in rhyming couplets about Mr. Fish, who's always down in the dumps: He's a pout pout fish with a pout pout face, so he spreads the dreary wearies all over the place!
-
-<!--more-->
 
 Poor pout pout fish. Mr. Fish goes about his day and encounters his friends, who have nothing better to say than to admonish him and tell him, essentially, to, "Be happy" and "Smile more." He's bringing everyone else down with that frown of his!
 

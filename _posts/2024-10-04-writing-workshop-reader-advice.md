@@ -1,14 +1,12 @@
 ---
 title: "Good readers make better writers - guidelines for critiquing work from your peers (and yourself!)"
-excerpt_separator: "<!--more-->"
+excerpt: "The practice of reading and critiquing is essential to improving your own skill as a writer."
 tags:
   - writing
   - workshop
 ---
 
 There's nothing more nourishing to a writer's growth than having a captive readership forced to offer feedback. But let's face it: your mom is never going to like your short stories and your friends say they'll read them and give honest commentary, but they definitely won't even open the document. Hence, workshops!
-
-<!--more-->
 
 Workshops have been a part of my writing life pretty consistently for well over 15 years now, and I find them indispensable. To me, there's nothing better than getting comments from insightful readers and listening to a discussion about my work from points of view that I had never intended or considered. But I also know that workshops can be, for others, anxiety-inducing moments of vulnerability, even at the MFA level where one might assume all participants are pretty accustomed to the process. Even graduate programs unfortunately don't screen for apathy, competitiveness, and narrow-mindedness.
 

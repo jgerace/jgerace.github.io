@@ -1,6 +1,6 @@
 ---
 title: "AI and the writing process: Creative catalyst, and sympathy for NaNoWriMo"
-excerpt_separator: "<!--more-->"
+excerpt: "AI models are tools. Their virtue lies entirely in how we employ them."
 classes: wide
 tags:
   - writing
@@ -8,8 +8,6 @@ tags:
 ---
 
 Machine-generated writing has been around for a while. I used to run different data sets from Project Gutenberg through a [Markov chain script](https://github.com/jgerace/literarylovechild) I had written and I used to play with neural networks, then came GPT-2, which blew all of the previous stuff away. Still, I wouldn't have wanted to read anything those technologies wrote. They created an occasional interesting line and image, which made them more apt to poetry than to prose, but they just weren't coherent enough to produce anything of real value on their own.
-
-<!--more-->
 
 Not that I want computers to write for me - writing is a hobby and I don't want to give up the satisfaction of the process for any machine-generated end product! And, as a reader, authorship is a compelling aspect of a story: I'm thinking about ["Pierre Menard, Author of the Quixote"](https://raley.english.ucsb.edu/wp-content/Engl10/Pierre-Menard.pdf) by Jorge Luis Borges, in which a fictional French writer, Pierre Menard, rewrites *Don Quixote* word for word. The story explores the implications of what it means for this exact story to be written by Menard instead of Cervantes. There's no intent behind a machine's version of a story. It's more meaningful to me if it comes from a person. We can discuss how these LLMs are trained from the work of people, but a machine is just writing words, not expressing anything of itself. There's a coldness to a story with machine origins.
 
