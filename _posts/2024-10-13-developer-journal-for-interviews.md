@@ -2,6 +2,7 @@
 title: "A developer journal can help you get your next software engineering job"
 excerpt: "Or: How I can do myself a favor and stop relying on my terrible memory."
 tags:
+  - senior-engineers-guide
   - software
   - interviewing
   - career
