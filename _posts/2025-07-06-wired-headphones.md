@@ -30,4 +30,4 @@ The creative minds at budget-conscious hardware companies circumvent this licens
 
 Pretty ingenious, but also...now I have to have my Bluetooth on if I want to use my wired headphones.
 
-Dear Apple: [Enshittification](https://en.wikipedia.org/wiki/Enshittification) much?
+Hey, Apple: [Enshittification](https://en.wikipedia.org/wiki/Enshittification) much?
