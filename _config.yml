@@ -21,7 +21,7 @@ title                    : "John Gerace"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "John Gerace"
-description              : "Software engineer, writer, translator, dad, worrywart"
+description              : "Software developer, writer, translator, dad, urban sketcher, journaler, maker, worrywart"
 url                      : "https://www.johngerace.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,7 +117,7 @@ analytics:
 author:
   name             : 
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software developer, writer, translator"
+  bio              : "Software developer, writer, translator, dad, urban sketcher, journaler, maker, worrywart"
   location         : 
   email            :
   links:
