@@ -6,6 +6,10 @@ classes: wide
 
 Here are a few projects I've authored over the years. Hopefully someone can find them useful or educational.
 
+## [Orrery](https://www.johngerace.com/orrery/)
+
+A browser-based, animated, interactive visualization of the solar system.
+
 ## [I Ching](https://www.johngerace.com/iching/) - The Book of Change
 
 A static web app for consulting the I Ching with an emphasis on a calm, meditative experience.
