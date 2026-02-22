@@ -6,7 +6,7 @@ classes: wide
 
 Here are a few projects I've authored over the years. Hopefully someone can find them useful or educational.
 
-## [Orrery](https://www.johngerace.com/orrery/)
+## [Interactive Orrery](https://www.johngerace.com/orrery/)
 
 A browser-based, animated, interactive visualization of the solar system.
 
