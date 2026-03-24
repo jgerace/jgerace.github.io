@@ -7,6 +7,7 @@ tags:
   - career
   - peloton
   - leetcode
+redirect_from: /software-interviews-are-kind-of-messed-up
 ---
 
 Everyone in the tech industry knows that software engineering interviews are awful and very few companies have done something about it. Now that I've been on the job market for several months, I've had an updated view of what it's like from the candidate's perspective. At the outset of my job search, I was grinding Leetcode questions because that's what you do. And I got totally slaughtered! My 18 years of professional experience had little bearing on the outcome of this kind of interview!
@@ -15,7 +16,7 @@ Phone screens are usually a data structures/algorithms question that seeks to we
 
 When I first started at Peloton in 2015, we ran candidates through a gauntlet of Leetcode- and Cracking-the-Coding-Interview-style questions just like everyone else did. And it was...serviceable. People got jobs. We filled roles. Some coworkers were great collaborators/mentors/technologists and some weren't. Some were good cultural fits and others weren't. But then we started to question why we were asking the questions we were asking. Data structures and algorithms questions are important if you're doing a lot of algorithm-heavy optimizations, but since we were building an e-commerce platform those questions didn't really represent the kinds of challenges candidates would face on the job. Could we glean better information during the interview experience with more-relevant questions? What would those questions look like?
 
-### What do I look for in a candidate?
+### ✦ &ensp; What do I look for in a candidate? &ensp; ✦
 
 At first, I continued asking DSA questions, but with far less emphasis on the actual DSA. I absolutely could not care less if you can balance a binary tree or find the median of the last n elements of a stream of numbers. You can look those algorithms up on your own time and I trust the long memory of the internet to have plenty of resources.
 
@@ -29,7 +30,7 @@ Candidates should also be able to walk me through their code line by line with a
 
 I felt like I had a lot of good results from that, but it still didn't cover as wide a range of the actual job as I would've liked. Fortunately, the larger interviewing team came together to come up with a brand new (to us) paradigm that included new question formats.
 
-### Solve a problem that isn't completely insane
+### ✦ &ensp; Solve a problem that isn't completely insane &ensp; ✦
 
 I don't think anyone cares if you can write a flood-fill algorithm or two sum or rotate a linked list. I do care that you can understand a problem with some constraints, write working code, then build off of your solution.
 
@@ -39,7 +40,7 @@ The second part was to modify this to include Deuce and Advantage, so that a pla
 
 There was a third part that I can't remember because barely anyone ever got to it. Usually people got through part II before it was time to allow the candidate to ask questions.
 
-### Modify an existing code base
+### ✦ &ensp; Modify an existing code base &ensp; ✦
 
 Hardly anyone ever works on a brand new code base, so it made sense to ask a question that drops candidates into the unfamiliar.
 
@@ -49,9 +50,9 @@ These two exercises were presented in different rounds of interview, with the ne
 
 The code wasn't so overwhelming that most candidates couldn't wrap their heads around it relatively quickly, but there were times that people just balked. This occurred, I think, far less often than with the Leetcode-style questions, and we often received compliments on how refreshing it was to work on a problem that leveraged someone's actual work experience.
 
-### Good interviewing takes work
+### ✦ &ensp; Good interviewing takes work &ensp; ✦
 
-It's difficult to write questions that mimic the on-the-job experience in the span of an hour-long interview. I don't think I'm a huge fan of take-home projects because, as an interviewer, you don't get to see the thought process. And as a candidate, you don't generally get the benefit of a conversation with an interviewer (this is not always the case). And sometimes, take-home projects require a ton of time that isn't compensated[^1].
+It's difficult to write questions that mimic the on-the-job experience in the span of an hour-long interview. I don't think I'm a huge fan of take-home projects because, as an interviewer, you don't get to see the thought process. And as a candidate, you don't generally get the benefit of a conversation with an interviewer (this is not always the case). And sometimes, take-home projects require a ton of time that isn't compensated{% include sn.html id="ks-sn1" note="And yes, I'm saying it should be, especially if it takes more than an hour or two, otherwise you, the company, have no skin in the game, and you should." %}.
 
 I would argue that putting forth the effort, especially if you're starting with something like Emily Bache's code katas, is well worth the cost in terms of both the relevance of the tests and the humaneness of the interviewing process. It's unreasonable to ask lazy questions and expect great results. I'm sure it's possible to find great matches using only Leetcode, but if interviewers don't think about why they ask those questions, they're going to hire candidates who are good at Leetcode instead of hiring candidates who are a better fit for the role itself. It's all the randomness with fewer possibilities.
 

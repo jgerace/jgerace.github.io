@@ -1,0 +1,112 @@
+// _sass/_syntax.scss
+//
+// Rouge syntax highlighting themed to match the warm paper palette.
+// Loosely inspired by the "pastie" theme but tuned to our ink/paper colours.
+//
+// Token reference: https://rouge-ruby.github.io/docs/Rouge/Token/Tokens.html
+
+.highlight {
+  background: darken($paper-dark, 3%);
+  border: 0.5px solid $rule;
+  border-radius: 2px;
+  margin: 0 0 1.3em;
+  overflow-x: auto;
+
+  @media (min-width: $bp-medium-up) {
+    width: calc(100% - #{$margin-col} - #{$margin-gap});
+  }
+
+  pre {
+    margin: 0;
+    padding: 1rem 1.25rem;
+    background: none;
+    border: none;
+
+    code {
+      font-family: $font-mono;
+      font-size: 13px;
+      line-height: 1.7;
+      background: none;
+      padding: 0;
+      color: $ink;
+    }
+  }
+
+  // ── Language label ────────────────────────────────────
+  // Rouge wraps blocks in <div class="language-ruby highlight">
+  // We use the class to show a small label in the corner.
+  &[class*="language-"]::before {
+    content: attr(class);
+    display: block;
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $ink-faint;
+    padding: 6px 1.25rem 0;
+  }
+}
+
+// Strip "language-" prefix from the label using a workaround:
+// we hide the full class string and show only the lang via data
+// (Jekyll doesn't easily set data attrs, so we just show the raw
+// class value — it's subtle enough at 9px to read fine)
+
+// ── Token colours ─────────────────────────────────────────
+//
+// Philosophy: readable, not garish. Two or three colours max,
+// with the accent red used sparingly for keywords.
+
+.highlight {
+
+  // Errors
+  .err { color: $pop-red; }
+
+  // Comments — secondary but readable
+  .c, .c1, .cm, .cs, .cp, .cd { color: $ink-soft; font-style: italic; }
+
+  // Keywords — the one place we use the red accent
+  .k, .kd, .kn, .kp, .kr, .kt, .kc { color: $pop-red; }
+
+  // Strings — warm ochre
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: $pop-amber; }
+
+  // Numbers
+  .m, .mf, .mh, .mi, .mo, .mb, .mx, .il { color: $pop-blue; }
+
+  // Names / identifiers — plain ink
+  .n, .na, .nb, .nc, .nd, .ne, .nf, .ni, .nl, .nn, .no, .nt, .nv,
+  .nx, .py, .bp, .vc, .vg, .vi, .vm { color: $ink; }
+
+  // Operators and punctuation — mid ink
+  .o, .ow, .p { color: $ink-mid; }
+
+  // Built-ins / special names — slightly accented
+  .nb, .bp { color: $pop-green; }
+
+  // Functions / method names
+  .nf, .fm { color: $ink; font-style: italic; }
+
+  // Constants
+  .no, .nc { color: $pop-amber; }
+
+  // Tags (HTML/XML)
+  .nt { color: $pop-red; }
+
+  // Attributes (HTML/XML)
+  .na { color: $pop-green; }
+
+  // Decorators / annotations
+  .nd { color: $pop-amber; }
+
+  // Generic tokens (diffs etc.)
+  .gd { color: $pop-red;   background: $pop-red-bg; }
+  .gi { color: $pop-green; background: $pop-green-bg; }
+  .gu { color: $ink-soft;  font-weight: bold; }
+  .gh { color: $ink;       font-weight: bold; }
+  .gp { color: $ink-faint; }
+
+  // Whitespace / misc
+  .w  { color: $ink-soft; }
+  .x  { color: $ink; }
+}

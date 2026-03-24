@@ -3,15 +3,16 @@ title: "My Thoughts on the Framework Laptop"
 excerpt: "It's a computer!"
 tags:
   - tech
+redirect_from: /framework-laptop-review
 ---
 
 I've had my [Framework](http://www.frame.work) laptop since November 2025, and I've been using it daily, but a lot of the reviews I encountered before buying it didn't really seem to address the stuff that gets a little annoying, most of which wouldn't have been a deal breaker, but there are a few things that really make me shake my fist angrily.
 
-### My setup
+### ✦ &ensp; My setup &ensp; ✦
 
 I use Ubuntu Linux exclusively on my laptops. At this point in its evolution it just works on pretty much any computer I've installed it on and the Framework is no exception. They've got solid support for it and it shouldn't be an issue for anyone to set it up as long as they're OK with installing it themselves instead of getting a laptop with an operating system already installed.
 
-### Requirements and Budget
+### ✦ &ensp; Requirements and Budget &ensp; ✦
 
 My use cases are fairly limited to writing, browsing the internet, occasional coding (nothing graphic intensive), and running local LLMs. In an emergency, I also need to be able to do my coding for work on it. I'm definitely not doing anything that would require a dedicated graphics card, like gaming or video editing. Local LLMs run well enough as long as they aren't too big and as long as you configure your machine with enough RAM, so you don't need a graphics card even if you want to do something computationally expensive like that.
 
@@ -23,7 +24,7 @@ My last laptop had a battery that swelled up, which was the impetus for the new 
 
 Budget: $1000.
 
-### The competition
+### ✦ &ensp; The competition &ensp; ✦
 
 Lenovo had some good sales for computers around $1000, but they usually had 16gb of RAM, occasionally 32gb, but they almost always had 256gb/512gb of storage. And never in a configuration in which it was 32gb RAM + 512gb storage, and definitely NEVER in a configuration where the RAM wasn't soldered down (meaning I couldn't upgrade it).
 
@@ -35,7 +36,7 @@ After a little browsing, I determined that getting a DIY Framework laptop would 
 
 A note about Windows vs Linux: Contrary to popular belief, you don't have to pay for Windows. You can download it and use it for free (legitimately!), but you won't be able to customize things like screensavers and desktop backgrounds and stuff unless you buy a key (~$25 on Kinguin). Plus it puts a watermark on the lower right hand side of your desktop. If you want to save money and you still want Windows, just go for that. It makes the Windows vs Linux decision much less of a cost issue.
 
-### The Good and The Mediocre
+### ✦ &ensp; The Good and The Mediocre &ensp; ✦
 
 Assembly was a breeze. The instructions were easy to understand and my 4-year-old helped me set it up. The only thing you need is a screwdriver and it's included!
 
@@ -51,7 +52,7 @@ The camera is fairly crappy even though the resolution is higher than what I get
 
 The battery life is lower than average, I think, but sufficient for me. Like I said, it lives at home so it's always near a plug, but I can easily get 6 - 8 hours of normal office productivity work out of it. I've never run it fully down, so I don't know for sure about that number, but I've never had a problem. It's not a computer you'd want to rely on if you really need solid battery life.
 
-### The Infuriating
+### ✦ &ensp; The Infuriating &ensp; ✦
 
 My biggest pet peeve is the fact that the USB-A port on the front left side is buggy. It doesn't detect my devices unless I restart the computer or reseat the expansion port. It's a [well-known problem](https://community.frame.work/t/tracking-fw13-amd-usb-a-expanson-card-powers-down-and-does-not-wake-up/45296) that still doesn't have a fix, even though it seems to have been around for years. I'm not sure why Framework haven't fixed it yet. This is the kind of thing that should count as baseline functionality, especially since swapping ports around is one of the Framework laptop's value propositions. It's not like USB-A is a rare thing either!
 
@@ -61,7 +62,7 @@ This is the kind of thing I hope they can fix in a firmware update.
 
 I'm not sure if this would've been a deal breaker for me. By now it's a foregone conclusion since I was past the return date by the time I discovered it. I'm fortunate enough to have a dongle I can use if I really need to plug in a thumb drive, but it's super annoying to have to do that if I don't want to wait for a restart.
 
-### A little pricey, but decent
+### ✦ &ensp; A little pricey, but decent &ensp; ✦
 
 I'd buy the Framework again if I could. I'm pretty used to fixing things on my own if I need to, so the flexibility gives me a little peace of mind. I'm going to run this thing for 10+ years if I can swing it, then I'll replace the battery and hope to get 10 more if the company's still around by then.
 

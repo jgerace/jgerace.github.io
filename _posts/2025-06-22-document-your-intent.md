@@ -6,6 +6,7 @@ tags:
   - software
   - career
   - senior-engineers-guide
+redirect_from: /document-your-intent
 ---
 
 In the fall of 2015, Peloton's tax partner, Avalara experience an outage on Black Friday, during which their tax calculation API was entirely down. Peloton used this API to determine that amount of tax due for an order in a given postal code for a given basket of goods, which is more complicated than it sounds because it considers a combination of state and local taxes, which includes the type of products in the order (clothes and exercise equipment may be taxed at different rates, for example), and it tracks the aggregate amount of tax the company owes to each state in which it operates.
@@ -18,7 +19,7 @@ This seemed like a real long shot to me, and it wasn't ever possible in the end 
 
 It wasn't an ideal solution, but, to quote Kurt Vonnegut: "So it goes."
 
-### Architecture
+### ✦ &ensp; Architecture &ensp; ✦
 
 I made a simple table with four fields:
 
@@ -31,7 +32,7 @@ We made this accessible in our CMS UI, which included a permissioning system, an
 
 This functionality was essentially a permanent feature flag. The difference between this kill switch and a feature flag is that feature flags are typically intended to be temporary and are often used to do controlled launches. Once the new code is determined to be stable, the feature flag is removed, and the old code is discarded.
 
-### Fast forward
+### ✦ &ensp; Fast forward &ensp; ✦
 
 Peloton didn't really have an established back end feature flag framework. The front end teams used something like Optimizely, which was much more feature-rich and allowed for things like A/B tests, but the back end teams didn't really need that kind of power.
 
@@ -39,13 +40,13 @@ However after maybe a year or two, and unbeknownst to me, one team did want feat
 
 They decided to use it to launch one of their new features, which had nothing at all to do with e-commerce and was not intended to be a permanent flag. They must have also told their colleagues, because other teams started to use the kill switch feature as an ethereal feature flag, and that's essentially what it became.
 
-### In which I smack my head
+### ✦ &ensp; In which I smack my head &ensp; ✦
 
 The real problem for this kind of usage was that our kill switch UI displayed nothing aside from a set of hard-coded switches in a specially-privileged CMS page that these teams didn't know about, either because they weren't permissioned to view it or they didn't dig deep enough to find out where the data was used. So they built a custom UI that displayed all the rows in the table and allowed CMS users to toggle them on and off.
 
 The issue here is that the way they built their own less-privileged CMS page was such that it didn't differentiate between kill switches and feature flags, so any CMS user could have easily made a mistake and disabled the Avalara tax calculation, even if they didn't have the permission to access the kill switch UI.
 
-### This is your life now
+### ✦ &ensp; This is your life now &ensp; ✦
 
 I explained the intent of the kill switch functionality to these teams after I found out what they'd been doing with it, but by then it was too late. They weren't going to build separate functionality to handle their use case, rightly or wrongly, and my business sponsors didn't want to pay for a tech debt project to extend the functionality to differentiate properly between kill switches and feature flags.
 
@@ -53,7 +54,7 @@ At the time of my departure kill switches and feature flags were still coupled, 
 
 Fortunately, we hadn't had any issues with mistaken toggles of critical functions.
 
-### Retrospective
+### ✦ &ensp; Retrospective &ensp; ✦
 
 I could have made the intent of the kill switch much clearer both in code and in our Confluence documentation. Why did we build it? As critical and highly-permissioned functionality, I should have outlined who gets permission, the shortcomings of the solution we'd put together so quickly, and a list of potential enhancements, and a vision for what it *should* look like.
 

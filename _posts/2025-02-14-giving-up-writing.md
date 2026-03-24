@@ -5,6 +5,7 @@ tags:
   - writing
   - career
   - life
+redirect_from: /giving-up-writing
 ---
 
 I found myself in a bar one evening during grad school with a bunch of my classmates. We were just hanging out, casually drinking, when someone posed the question: Would you completely give up writing in exchange for $100 million dollars?

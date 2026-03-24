@@ -1,0 +1,77 @@
+// _sass/_masthead.scss
+
+.masthead {
+  text-align: center;
+  padding: 2rem 0 1.75rem;
+  border-bottom: 1px solid $rule;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: $ink;
+    margin-bottom: 6px;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $ink;
+    margin-top: 6px;
+  }
+
+  &__volume {
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: $ink-soft;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__name {
+    font-family: $font-display;
+    font-size: 52px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    margin: 0 0 8px;
+    color: $ink;
+
+    @media (max-width: $bp-medium) {
+      font-size: 40px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 13px;
+    font-style: italic;
+    color: $ink-mid;
+    margin: 0;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 14px;
+    list-style: none;
+
+    a {
+      font-family: $font-mono;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: $ink-mid;
+      text-decoration: none;
+
+      &:hover { color: $ink; }
+      &.nav-current {
+        color: $ink;
+        border-bottom: 0.5px solid $ink;
+        padding-bottom: 1px;
+      }
+    }
+  }
+}

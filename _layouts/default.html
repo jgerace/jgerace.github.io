@@ -1,36 +1,40 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title | markdownify | strip_html }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% seo %}
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% elsif page.lede %}
+  <meta name="description" content="{{ page.lede }}">
+  {% elsif page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  {% endif %}
+  <!--
+    Hello. You found the source.
+    This site was made by {{ site.author.name }}, with too much
+    coffee and an unreasonable attachment to the EB Garamond italic.
+    Built with Jekyll. Hosted on GitHub Pages.
+    If you'd like to say hello: {{ site.author.email }}
+  -->
+</head>
+<body>
 
-<!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
-
-    <div class="initial-content">
+  <div class="site-wrap">
+    {% include masthead.html %}
+    <main id="main-content">
       {{ content }}
-      {% include after-content.html %}
-    </div>
+    </main>
+    {% include footer.html %}
+  </div>
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
-
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include_cached footer.html %}
-        {% include footer/custom.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-  </body>
+{% if site.goatcounter and site.goatcounter != "" %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<noscript><img src="https://{{ site.goatcounter }}.goatcounter.com/count?p={{ page.url | uri_escape }}"></noscript>
+{% endif %}
+</body>
 </html>

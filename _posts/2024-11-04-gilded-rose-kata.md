@@ -7,9 +7,11 @@ tags:
   - code-kata
   - career
   - senior-engineers-guide
+redirect_from: /gilded-rose-kata
+wide: true
 ---
 
-### Introduction
+### ✦ &ensp; Introduction &ensp; ✦
 
 Code katas are a great way to brush up on some of the fundamentals of software engineering - the skills you'll actually use on the job. I'm particularly thankful for [Emily Bache's GitHub repos](https://github.com/emilybache?tab=repositories&q=kata&type=&language=&sort=) with all the code and test fixtures that makes it easy to work on one when the inspiration strikes.
 
@@ -80,7 +82,7 @@ Let's keep in mind that we have a couple constraints:
 - No updating the `Item` class
 - No updating `items` property
 
-### Taking stock of the code
+### ✦ &ensp; Taking stock of the code &ensp; ✦
 
 We have no unit tests!
 
@@ -109,7 +111,7 @@ We also notice that the code in GildedRose relies on checking the `name` propert
 
 Sifting through all the if statements, we can also see that the code updates `quality` before it decrements the `sell_in` field, then it update `quality` again for any items that adjust further once the `sell_in` date has passed.
 
-### Tests, please!
+### ✦ &ensp; Tests, please! &ensp; ✦
 
 We definitely need to write unit tests first so that we can run them as we update the code. Let's outline a few cases before we fill in the code.
 
@@ -166,7 +168,7 @@ We definitely need to write unit tests first so that we can run them as we updat
 
 Once we fill in the body of all the test cases, minus the last one for Conjured items, we can think about refactoring the current logic. We'll work on adding new functionality later.
 
-### A close read of the requirements specification
+### ✦ &ensp; A close read of the requirements specification &ensp; ✦
 
 In reading the requirements specification, a few things stand out to me:
 
@@ -187,7 +189,7 @@ In short: What's the user story?
 
 There's enough ambiguity here to suggest that we have the potential to deal with many types of items, and that if we don't build this in at the outset, we'll run into trouble down the line. Relying on name comparison isn't usually a great architectural pattern!
 
-### Separation of concerns
+### ✦ &ensp; Separation of concerns &ensp; ✦
 
 Let's consider the architecture of this inn from a high level. We have two concepts here:
 
@@ -245,7 +247,7 @@ class TicketItem(Item):
         pass
 ```
 
-### Modifying the legacy code
+### ✦ &ensp; Modifying the legacy code &ensp; ✦
 
 Let's extract our logic for a normal item into our new `NormalItem` class.
 
@@ -351,7 +353,7 @@ def update_quality(self):
 
 It should be trivial now to add a new `ConjuredItem` class (left as an exercise to the user). No tangle of if statements or anything.
 
-### TextTests and an ideal state
+### ✦ &ensp; TextTests and an ideal state &ensp; ✦
 
 We should note that TextTests won't pass unless we modify the fixture to use our new item classes. This highlights one of the drawbacks to this solution: we have to update all callers of the `Item` class to use our new classes.
 
@@ -359,7 +361,7 @@ This, to me, is a small price to pay for what I see as cleaner organization, inc
 
 We don't have more context than this, but I could see a world in which we created an item factory so that whatever classes are creating these items can do so with a single object instead of having to juggle multiple. The factory would abstract even the type of item, which we only need upon creation. Gilded Rose just cares about receiving a list of items. It really doesn't care what they are, and rightly so.
 
-### Conclusion
+### ✦ &ensp; Conclusion &ensp; ✦
 
 I'm sure there's more we could do here, and we could even talk about different approaches to the refactor.
 

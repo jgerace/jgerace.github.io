@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="https://schema.org/BlogPosting">
+
+<div class="post-header">
+  <div class="post-header__meta">
+    {% for tag in page.tags %}<meta itemprop="keywords" content="{{ tag }}">{% endfor %}
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time>
+    {% if page.read_time %} · {{ page.read_time }} min.{% endif %}
+    {% if page.read_time_note %} <em>{{ page.read_time_note }}</em>{% endif %}
+  </div>
+
+  <h1 class="post-header__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+
+  {% if page.lede %}
+  <p class="post-header__lede" itemprop="description">{{ page.lede }}</p>
+  {% elsif page.description %}
+  <meta itemprop="description" content="{{ page.description }}">
+  {% elsif page.excerpt %}
+  <meta itemprop="description" content="{{ page.excerpt | strip_html | truncatewords: 30 }}">
+  {% endif %}
+
+  <div class="post-header__byline">
+    By <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <span itemprop="name">{{ page.author | default: site.author.name }}</span>
+    </span>
+    {% if page.byline_note %} · <em>{{ page.byline_note }}</em>{% endif %}
+  </div>
+</div>
+
+{% if page.epigraph %}
+<div class="post-epigraph">
+  <p>{{ page.epigraph }}</p>
+  {% if page.epigraph_source %}<cite>{{ page.epigraph_source }}</cite>{% endif %}
+</div>
+{% endif %}
+
+<div class="post-content{% unless page.margin_notes %} post-content--no-notes{% endunless %}{% if page.wide %} post-content--wide{% endif %}" itemprop="articleBody">
+  {{ content }}
+</div>
+
+<div class="ornament" aria-hidden="true">⁂</div>
+
+<div class="post-footer">
+  <div class="post-footer__tags" aria-label="Post tags">
+    {% for tag in page.tags %}
+    <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="post-footer__tag">{{ tag }}</a>
+    {% endfor %}
+    {% if page.mood %}
+    <span class="post-footer__tag" style="font-style:italic" aria-label="Mood: {{ page.mood }}">{{ page.mood }}</span>
+    {% endif %}
+  </div>
+
+  <nav class="post-footer__nav" aria-label="Adjacent posts">
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" aria-label="Previous post: {{ page.previous.title | strip_html }}">← previous</a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" aria-label="Next post: {{ page.next.title | strip_html }}">next →</a>
+    {% endif %}
+  </nav>
+</div>
+
+</article>

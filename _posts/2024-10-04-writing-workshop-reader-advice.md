@@ -4,6 +4,7 @@ excerpt: "The practice of reading and critiquing is essential to improving your 
 tags:
   - writing
   - workshop
+redirect_from: /writing-workshop-reader-advice
 ---
 
 There's nothing more nourishing to a writer's growth than having a captive readership forced to offer feedback. But let's face it: your mom is never going to like your short stories and your friends say they'll read them and give honest commentary, but they definitely won't even open the document. Hence, workshops!
@@ -18,13 +19,13 @@ Really, this advice applies to anyone acting as a reader with an eye toward crit
 
 Remember: The practice of reading and critiquing is essential to improving your own skill as a writer. Apply these techniques when you edit your own work!
 
-### Read it twice
+### ✦ &ensp; Read it twice &ensp; ✦
 
 Approach the first read as you would any story you were reading for pleasure. Let it absorb you and don't worry about writing comments just yet. When you're finished, write down that first impression. This is the kind of reading most people do, so if you react strongly to anything, you can be reasonably sure that a casual reader will react to the same parts.
 
 The second read should be more analytical. Take notes! Ask more questions of the story and try to figure out how it works. Break it down into constituent scenes, plot threads, themes, however you want to slice it, and use the following guidelines to help you think about the intent and the construction of the piece.
 
-### Describe the story
+### ✦ &ensp; Describe the story &ensp; ✦
 
 Start big-picture:
 
@@ -55,13 +56,13 @@ We can go even further and talk about the story at the sentence-level, but I usu
 - How does each new sentence build on the ideas built up by previous sentences?
 - What sentences are most impactful and why? When do they occur in the scene?
 
-### Consider the writer
+### ✦ &ensp; Consider the writer &ensp; ✦
 
 What does the writer want their story to be? What do they want their story to achieve? Most workshops I've done require the author to present work without notes, then to remain silent during the group discussion. If you know what the author's going for, then great! You're in a much better position to remark on how well the story achieves the intent.
 
 If you don't know, can you tell from how the story is written? This is where it's important to talk about how the story *does* work, rather than about how you think it *should* work. Let the author decide if your impression of the story is the one they were trying to achieve. Often, your opinion will be one of many, especially in a workshop setting. Definitely be careful not to dictate what a story should strive to do. It's not your story! A story's effectiveness is a spectrum, and you can comment on it to the extent that you understand what the story is trying to achieve.
 
-### It doesn't matter if you *like* the story or not
+### ✦ &ensp; It doesn't matter if you *like* the story or not &ensp; ✦
 
 Sometimes a story isn't to your taste, and that's OK. But that doesn't absolve you of the duty to provide honest, thoughtful commentary. You may never enjoy high fantasy or flash fiction or office dramas or whatever, so you may never enjoy the submissions from certain of your peers. Find something you can relate to. At the most basic level, writing is a form of communication, and the author must be communicating *something* to you that you can interpret.
 
@@ -71,7 +72,7 @@ Can you compare the piece, or aspects of it, to something else you've read? Coul
 
 Which brings me to my final note...
 
-### Don't be a jerk. Corollary: Be nice
+### ✦ &ensp; Don't be a jerk. Corollary: Be nice &ensp; ✦
 
 As in life, so too in workshop. Everyone's trying to improve. Workshop isn't a place to showcase your finest writing, but the stories people write can often be quite personal. Read in good faith and use each piece as an opportunity to improve your close reading, broaden your literary vocabulary, discuss new ideas, and meet some interesting people.
 

@@ -6,13 +6,14 @@ tags:
   - mfa
   - career
   - personal finance
+redirect_from: /worth-of-an-mfa-program
 ---
 
 Every now and then I see posts on Reddit asking about MFA programs: Is it worth pursuing?
 
 Even though I graduated from a reputable and expensive program, and with almost ten years of perspective since, I still have no idea.
 
-### Money is always the biggest issue
+### ✦ &ensp; Money is always the biggest issue &ensp; ✦
 
 The most obvious and immediate consideration is tuition – Columbia is probably one of the most expensive programs tuition-wise ($100k sticker price in 2013), and that's before you have to pay NYC living expenses. Fully-funded programs are rarer and smaller (and more competitive as a result) and they usually require you to teach as part of the program, which can be great if you want that experience.
 
@@ -22,13 +23,13 @@ There's also very little money to be had as a writer unless you're extremely tal
 
 But also, I did get my job at Peloton directly through people I met at Columbia. So...does that count? What would the alternative have been? Maybe I would've been able to get another software engineering job on my own, but would it have paid as well? Would I have benefited from the COVID pandemic in the same way? Would I have enjoyed it as much? There are so many unknowns and no guarantees that it really isn't meaningful to think about it.
 
-### MFAs aren't mandatory
+### ✦ &ensp; MFAs aren't mandatory &ensp; ✦
 
 This should be self-evident, but a lot of people still ask whether they "need" one and of course the answer is "no." It depends on what you want to do afterward, but it's absolutely possible to become a journalist or a novelist with a master's degree in English or with nothing at all. The famous debate between [MFA vs NYC](https://bookshop.org/p/books/mfa-vs-nyc-the-two-cultures-of-american-fiction-chad-harbach/8048128) still applies, but it's easier to get where you want to go if you a) have a degree, b) have connections, and c) have a guided learning experience.
 
 I hadn't taken any literature classes in undergrad so I wanted a program that would let me take tons of classes. The New School's program had students take one workshop and one seminar per semester, both scheduled in the evenings. This would've been a great program for anyone who needed to work, and it was about half Columbia's tuition. Columbia's program was full-time only and required students to take a workshop and three seminars per semester, with maybe one or two 4-week optional master classes on top of that.
 
-### The "MFA tone" is real
+### ✦ &ensp; The "MFA tone" is real &ensp; ✦
 
 I've heard worry that "literary" writing coming from MFA students has this very average quality to it, like it's the product of a lot of people's opinions. This is a real worry. The tone often feels soulless and overly-curated, maybe a little academic.
 
@@ -40,7 +41,7 @@ I'm guessing here, but I suspect the prevalence of the MFA tone is, to some exte
 
 Good writing teachers in any environment can help early writers practice the skill of acknowledging all critique and choosing only the most relevant notes.
 
-### Opportunity cost
+### ✦ &ensp; Opportunity cost &ensp; ✦
 
 What else could you do with your time? Why do you even want an MFA in the first place? Are you trying to escape your dead-end job? Could you focus on a job search? Find a good therapist? Could you instead join local workshops and audit literature classes at a local college?
 
@@ -48,7 +49,7 @@ With my $100k tuition, I could have taken a much lower mortgage, or invested for
 
 It would have been less of an issue if I had gone to a fully-funded or part-time program, but I didn't get into a fully-funded program and didn't like the offerings at the part-time programs. In any case, future MFA generations need to consider what else they could be doing with their time and money on top of tuition and living expenses.
 
-### The good parts
+### ✦ &ensp; The good parts &ensp; ✦
 
 Enrolling in a full-time program forced me to focus on writing, something I may not have been so conscientious about if I had done a part-time program, or decided against an MFA program. With lots of competing priorities, I know that I can get stretched thin and burned out pretty quickly if I'm really gunning to achieve a personal goal, so enrolling in an MFA program was a way to force my own hand timewise.
 
@@ -58,7 +59,7 @@ I don't know that workshops were any better or worse. It should be easy to find 
 
 I wasn't very good about keeping in touch with classmates and teachers - part of this was due to COVID and moving away from NYC - but anyone who's more community-minded than I am should be able to make valuable, lasting connections in an MFA program. I'm not sure that I would've found a way to make similar connections in the literary sphere outside of an MFA.
 
-### No regrets
+### ✦ &ensp; No regrets &ensp; ✦
 
 Whatever path the aspiring writer chooses, I recommend giving 100% to it, otherwise it becomes easier to regret the paths not taken. For the limited time an MFA program provides guidance, writers should take advantage to the fullest extent and get what they signed up for.
 

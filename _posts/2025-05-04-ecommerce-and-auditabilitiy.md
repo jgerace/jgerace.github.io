@@ -6,9 +6,10 @@ tags:
   - software
   - career
   - senior-engineers-guide
+redirect_from: /ecommerce-and-auditability
 ---
 
-### Why does good software go bad?
+### ✦ &ensp; Why does good software go bad? &ensp; ✦
 
 All software is vulnerable to errors. But the most insidious, sneaky types of errors are the ones we can't anticipate, the ones that make our software break gradually without our even noticing.
 
@@ -16,13 +17,13 @@ I'm thinking, in particular, about user stories changing as the business changes
 
 At Peloton, I spent a lot of time investigating quirks in the order lifecycle. Sometimes it was difficult to determine programatically or manually through our CMS what happened to an order such that it resulted in its current state. Usually, this sort of question arose because our workflows weren't that robust. Did the user make a mistake? Was there a bug in the code? What was the intent behind this data?
 
-### Automating workflows fixed a lot of things!
+### ✦ &ensp; Automating workflows fixed a lot of things! &ensp; ✦
 
 Our RMA/Exchange/Refund functionality in our CMS came from a need to automate workflows as our customer base grew so large that support agents couldn't handle the glut of support tickets, even if those requests were a tiny percentage of order volume. We initially allowed for a lot of flexibility for things like customer support operations so that agents could assist customers more quickly and with more agility to increase customer satisfaction.
 
 It actually worked pretty well, and from what I remember, our Net Promoter Score, which was the C-suite's north star at the time, was still well into the 90s.
 
-### It was good while it lasted
+### ✦ &ensp; It was good while it lasted &ensp; ✦
 
 The biggest source of data grief came from customer support agents and the manual workflows we provided for them through our CMS for our RMA/Exchange/Refund functionality. In order to make the support process as painless as possible for customers, and as quick as possible for agents (so they can close tickets more quickly), we were asked to give them quite a bit of leeway in terms of what they could do, i.e. financially. Just give an irate customer a refund. Toss money at the problem!
 
@@ -38,7 +39,7 @@ The IPO process required us to build more of that auditability framework. Our us
 
 At that point, we were able to examine the specific needs based on the most up-to-date user stories and devise a solution that could be extensible given the new auditability requirements.
 
-### Pie in the sky
+### ✦ &ensp; Pie in the sky &ensp; ✦
 
 A good auding framework would answer five questions for business stakeholders:
 
@@ -54,13 +55,14 @@ Good software would also provide logging so that engineers can debug intermediat
 
 
 I do have anecdotes about software degredation as a result of engineering sacrifices and broken promises, and I intend to write about them in future installments. Stay tuned!
-### Sorry support agents...
+
+### ✦ &ensp; Sorry support agents... &ensp; ✦
 
 One of the first things we did was to make our customer support workflows a little more directed. Instead of allowing agents to perform multiple actions in a single runthrough of our RMA/Exchange/Refund workflow, we required them to perform multiple runthroughs so we could attach reasons for each transaction. We even broke out the accessory exchange workflow into its own space to ensure that they could only perform like-for-like exchanges instead of allowing customers to return, for example, a pair of shoes and, with the refund, purchase a heart rate monitor. The latter would be considered a brand new order for accounting purposes, and not an exchange.
 
 This, understandably, made support agents' lives more difficult, but in a post-IPO world, legal requirements win over things like customer satisfaction and employees' blood pressure.
 
-### Events, finally
+### ✦ &ensp; Events, finally &ensp; ✦
 
 We took the opportunity to add event streaming.
 
@@ -68,7 +70,7 @@ Each event corresponded to one of the RMA/Exchange/Refund actions, which we surf
 
 The problem with event streams at Peloton was the engineering resource limitation of the internal Netsuite engineering team. They just didn't have enough time to ingest all the events we could have sent through, so we had to continue to batch some of the data, which occasionally created race conditions that the Netsuite engineers had to untangle. That, however, was their engineering problem to deal with when they felt the ROI made sense.
 
-### The real issue is that it wasn't an issue
+### ✦ &ensp; The real issue is that it wasn't an issue &ensp; ✦
 
 Everything was fine until Peloton decided to IPO, which is to say that the user stories at the time didn't lead engineers to think ahead about what might happen a few years in the future. The requirement to give more flexibility to support agents implicitly prevented us from parsing the agent's exact intent and the business need was greater than the data need, so we didn't spend the extra time on it. We were all totally on board with that!
 

@@ -1,0 +1,70 @@
+// _sass/_tags.scss
+
+.tag-page {
+  &__heading {
+    font-family: $font-display;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 2rem 0 0.25rem;
+    color: $ink;
+
+    span {
+      color: $pop-red;
+      font-style: italic;
+    }
+  }
+
+  &__count {
+    font-family: $font-mono;
+    font-size: 10px;
+    color: $ink-soft;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    display: block;
+  }
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.5rem 0;
+  list-style: none;
+
+  &__item a {
+    font-family: $font-mono;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    text-decoration: none;
+    border: 0.5px solid $rule;
+    padding: 3px 10px;
+    display: block;
+    transition: all 0.15s;
+
+    &:hover {
+      color: $ink;
+      border-color: $ink-soft;
+    }
+
+    &.active {
+      color: $pop-red;
+      border-color: $pop-red;
+    }
+  }
+}
+
+// Tag section headings on the /tags/ page
+.tag-heading {
+  font-family: $font-display;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  color: $ink;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid $rule;
+}

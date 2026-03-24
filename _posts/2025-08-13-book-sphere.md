@@ -4,6 +4,7 @@ excerpt: "Wonderfully adequate"
 tags:
   - book review
   - literature
+redirect_from: /book-sphere
 ---
 
 ![Front cover of Sphere by Michael Crichton - Fair use, https://en.wikipedia.org/w/index.php?curid=17751046]({{ site.url }}{{ site.baseurl }}/assets/images/cover-sphere.jpeg){: .align-center}

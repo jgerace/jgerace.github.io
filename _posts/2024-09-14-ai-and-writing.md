@@ -5,6 +5,7 @@ classes: wide
 tags:
   - writing
   - ai
+redirect_from: /ai-and-writing
 ---
 
 Machine-generated writing has been around for a while. I used to run different data sets from Project Gutenberg through a [Markov chain script](https://github.com/jgerace/literarylovechild) I had written and I used to play with neural networks, then came GPT-2, which blew all of the previous stuff away. Still, I wouldn't have wanted to read anything those technologies wrote. They created an occasional interesting line and image, which made them more apt to poetry than to prose, but they just weren't coherent enough to produce anything of real value on their own.
@@ -21,7 +22,7 @@ I, like NaNoWriMo, object to LLMs that have been trained on copyrighted material
 
 To be clear: machine-generated stories are not for me, but AI is not categorically bad. I believe there could be a reasonable place for it in anyone's writing process. Here are a few ways of integrating AI into your writing process.
 
-### Writing Prompts
+### ✦ &ensp; Writing Prompts &ensp; ✦
 
 We might as well lean into what AI currently does well: write tepid output. You can tune it to your desired degree of specificity and ask it for prompts that reflect the themes or styles of your favorite authors.
 
@@ -65,7 +66,7 @@ ChatGPT's reply:
 
 I don't hate these ideas! ChatGPT hasn't told me what to think about them either, so I still have the freedom to write my own emotional core to any of the ideas that inspire me.
 
-### Outlining
+### ✦ &ensp; Outlining &ensp; ✦
 
 AI isn't actually very good at outlining, especially for novels that have intricate plots, but I treat it like a writing prompt. Ask an LLM for an outline of a story and you'll often get something overly simplistic, but which can act as a point of inspiration.
 
@@ -159,13 +160,13 @@ Its suggestion:
 
 I don't hate this idea either! I don't think I would structure the novel that way, but it has an arc and I still have to make a zillion other decisions that could shape the story into something entirely different. I'm curious to the extent to which Ted Chiang would consider the end result of this process "art."
 
-### Rubber Duck Debugging
+### ✦ &ensp; Rubber Duck Debugging &ensp; ✦
 
 Stuck on a story? Need to chat with someone, but nobody's around? Use a concept from software engineering called [Rubber Duck Debugging](https://rubberduckdebugging.com/)! Explain what you're doing to the LLM as means of exploration and clarification. The LLM will obviously talk back to you, while a rubber duck will not. Given the right conversational choices, you can use the LLM to challenge your ideas and ask for inspiration. Even if the LLM is acting stupid, you might find value in pushing back against its idiocy, over-explaining what you're trying to do, forcing you to think more deeply about your story in a way that you might not with a silent rubber duck.
 
 Ask the LLM for suggestions and reject them all! Maybe you aren't having a good creative day and just need a little nudge. It happens to all of us, and that's OK.
 
-### Relax just a tad, people
+### ✦ &ensp; Relax just a tad, people &ensp; ✦
 
 It's unfair to expect a categorical rejection of any technology as a viable tool. Since when do we think it's reasonable to take an un-nuanced view of anything? Yes, generative AI has its issues: copyright infringement, questions of authorship and IP rights, data harvesting, false information, laziness, a deluge of sub par work. All that gives me the heebie jeebies and it's more than enough reason for me, personally, to keep my distance, but I bristle at the idea that AI shouldn't be used in the writing process at all by anyone.
 

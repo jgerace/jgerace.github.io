@@ -4,6 +4,7 @@ excerpt: "Unfortunately, sometimes regret only appears once you lose."
 tags:
   - book review
   - literature
+redirect_from: /book-promise-me-youll-shoot-yourself
 ---
 
 ![Front cover of Promise Me You'll Shoot Yourself by Florian Huber - from The Hachette Book Group - https://www.hachettebookgroup.com/titles/florian-huber/promise-me-youll-shoot-yourself/9780316534345/]({{ site.url }}{{ site.baseurl }}/assets/images/cover-promise-me-youll-shoot-yourself.jpeg){: .align-center}
