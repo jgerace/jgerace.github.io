@@ -1,23 +1,23 @@
 title: John Gerace
-subtitle: "A writer and designer with a weakness for long margin notes and short deadlines"
+subtitle: "A writer and software engineer with a weakness for long margin notes and short deadlines"
 description: "Irregular dispatches on design, typography, and the quiet disasters of making things."
 
 # SEO — used by jekyll-seo-tag
 # Set author twitter/mastodon for social meta tags
-twitter:
-  username: yourtwitterhandle   # omit @ sign, or remove if not on Twitter
+# twitter:
+#   username: yourtwitterhandle   # omit @ sign, or remove if not on Twitter
 
 # Default social sharing image — create a 1200x630px image and put it in assets/
 # logo: /assets/images/social-card.png
 
 # Mastodon verification link (rel=me)
 # Add your Mastodon profile URL to links: in _config.yml — the rel="me" is already set
-url: "https://eleanormarsh.com"
+url: "https://www.johngerace.com"
 baseurl: ""
 
 author:
   name: John Gerace
-  email: hello@eleanormarsh.com
+  # email: hello@johngerace.com
 
 # Volume / issue — update each year
 journal:
@@ -27,7 +27,7 @@ journal:
 
 # Hire block — set to false to hide
 hiring: true
-hiring_text: "Available for freelance work — design systems, typographic direction, and front-end implementation."
+hiring_text: "Available for freelance work — developmental fiction editing, structural commentary, line editing, copywriting, and home remedies for writer's block."
 hiring_link_text: "Get in touch →"
 hiring_link: "/contact/"
 

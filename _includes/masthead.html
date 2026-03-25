@@ -1,9 +1,15 @@
 <a href="#main-content" class="skip-link">Skip to content</a>
 
 <header class="masthead">
+  {% if site.journal.volume or site.journal.since or site.journal.tagline %}
   <div class="masthead__volume">
-    {{ site.journal.volume }} · {{ site.journal.since }} · {{ site.journal.tagline }}
+    {% if site.journal.volume %}{{ site.journal.volume }}{% endif %}
+    {% if site.journal.volume and site.journal.since %} · {% endif %}
+    {% if site.journal.since %}{{ site.journal.since }}{% endif %}
+    {% if site.journal.tagline and (site.journal.volume or site.journal.since) %} · {% endif %}
+    {% if site.journal.tagline %}{{ site.journal.tagline }}{% endif %}
   </div>
+  {% endif %}
   <a href="{{ '/' | relative_url }}" style="text-decoration:none" aria-label="{{ site.title }} — home">
     {% if page.layout == 'home' %}
     <h1 class="masthead__name">{{ site.title }}</h1>

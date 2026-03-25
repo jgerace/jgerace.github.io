@@ -7,6 +7,7 @@ status: active
 stack: [jekyll, sass, liquid]
 feeling: "obsessed, slightly precious about it, unreasonably invested in the kerning"
 project_url: https://github.com/yourusername/marginalia
+published: false
 ---
 
 {% include margin-note.html

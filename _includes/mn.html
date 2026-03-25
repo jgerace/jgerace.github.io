@@ -3,7 +3,6 @@
 
   Usage (inline in Markdown, inside a paragraph):
     Some text{% include mn.html id="unique-id" note="Your aside here." %} continues.
-{% endcomment %}
-<label for="mn-{{ include.id }}" class="mn-toggle" aria-label="Show note: {{ include.note | strip_html | truncatewords: 8 }}">†</label><input
-  type="checkbox" id="mn-{{ include.id }}" class="mn-toggle-input" aria-hidden="true"
-/><span class="mn" role="note">{{ include.note }}</span>
+
+  Note: for pull quotes, use a blockquote instead.
+{% endcomment %}<label for="mn-{{ include.id }}" class="mn-toggle" aria-label="Show note: {{ include.note | strip_html | truncatewords: 8 }}">†</label><input type="checkbox" id="mn-{{ include.id }}" class="mn-toggle-input" aria-hidden="true"/><span class="mn" role="note">{{ include.note }}</span>

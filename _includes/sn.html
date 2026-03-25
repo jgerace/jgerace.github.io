@@ -3,7 +3,4 @@
 
   Usage (inline in Markdown, inside a paragraph):
     Some text{% include sn.html id="unique-id" note="Your numbered aside." %} continues.
-{% endcomment %}
-<label for="sn-{{ include.id }}" class="sn-toggle" aria-label="Show note: {{ include.note | strip_html | truncatewords: 8 }}"></label><input
-  type="checkbox" id="sn-{{ include.id }}" class="sn-toggle-input" aria-hidden="true"
-/><span class="sn" role="note">{{ include.note }}</span>
+{% endcomment %}<label for="sn-{{ include.id }}" class="sn-toggle" aria-label="Show note: {{ include.note | strip_html | truncatewords: 8 }}"></label><input type="checkbox" id="sn-{{ include.id }}" class="sn-toggle-input" aria-hidden="true"/><span class="sn" role="note">{{ include.note }}</span>

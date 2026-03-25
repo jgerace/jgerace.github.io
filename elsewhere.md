@@ -14,13 +14,14 @@ description: "Where to find me around the internet."
 <div class="rule-ornament" aria-hidden="true"><span>❧</span></div>
 <h2 class="section-label">where to find me</h2>
 
-<div class="post-list" role="list">
+<div class="elsewhere-list" role="list">
   {% for link in site.links %}
-  <div class="post-list__item" role="listitem">
-    <div class="post-list__meta">
-      <span class="post-list__tag">{{ link.platform }}</span>
+  <div class="elsewhere-list__item" role="listitem">
+    <div class="elsewhere-list__icon" aria-hidden="true">
+      {% include icons/{{ link.icon }}.html %}
     </div>
-    <div>
+    <div class="elsewhere-list__body">
+      <p class="elsewhere-list__platform">{{ link.platform }}</p>
       <p class="elsewhere__handle">
         <a href="{{ link.url }}" rel="me noopener" target="_blank"
            aria-label="{{ link.platform }}{% if link.handle %}: {{ link.handle }}{% endif %}">
