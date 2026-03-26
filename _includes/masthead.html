@@ -31,5 +31,9 @@
       {% if page.url contains '/elsewhere' %}class="nav-current" aria-current="page"{% endif %}>
       elsewhere
     </a>
+    <a href="{{ '/contact/' | relative_url }}"
+      {% if page.url contains '/contact' %}class="nav-current" aria-current="page"{% endif %}>
+      contact
+    </a>
   </nav>
 </header>

@@ -7,9 +7,11 @@ layout: default
 <div class="post-header">
   <div class="post-header__meta">
     {% for tag in page.tags %}<meta itemprop="keywords" content="{{ tag }}">{% endfor %}
+    {% if page.date %}
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time>
     {% if page.read_time %} · {{ page.read_time }} min.{% endif %}
     {% if page.read_time_note %} <em>{{ page.read_time_note }}</em>{% endif %}
+    {% endif %}
   </div>
 
   <h1 class="post-header__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>

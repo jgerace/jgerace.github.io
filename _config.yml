@@ -1,6 +1,6 @@
 title: John Gerace
-subtitle: "A writer and software engineer with a weakness for long margin notes and short deadlines"
-description: "Irregular dispatches on design, typography, and the quiet disasters of making things."
+subtitle: "A writer and software engineer with a weakness for long margin notes and short stories"
+description: "Irregular dispatches on software, writing, and the quiet disasters of making things."
 
 # SEO — used by jekyll-seo-tag
 # Set author twitter/mastodon for social meta tags
@@ -78,7 +78,8 @@ kramdown:
       line_numbers: false
 
 # Permalinks
-permalink: /writing/:year/:month/:slug/
+# permalink: /writing/:year/:month/:slug/
+permalink: /writing/:slug/
 
 # Homepage
 home_post_count: 5   # number of recent posts shown on the homepage
@@ -86,7 +87,7 @@ home_post_count: 5   # number of recent posts shown on the homepage
 # Analytics (GoatCounter)
 # Set your GoatCounter username to enable analytics.
 # Leave blank or remove to disable.
-goatcounter: ""
+goatcounter: "discombobulatusimperator"
 
 # Social / elsewhere links
 # The `icon` field must match a filename in _includes/icons/
