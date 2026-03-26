@@ -8,7 +8,7 @@ description: "Get in touch."
 
 <div class="post-epigraph">
   <p>"Much unhappiness has come into the world because of bewilderment and things left unsaid."</p>
-  <cite>—  Fyodor Dostoevsky</cite>
+  <cite>— Fyodor Dostoevsky</cite>
 </div>
 
 <div class="rule-ornament" aria-hidden="true"><span>❧</span></div>

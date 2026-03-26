@@ -6,8 +6,8 @@ footer_note: "If you have made it this far down the projects page: thank you. Mo
 ---
 
 <div class="post-epigraph">
-  <p>"The ratio of time spent making to time spent explaining what you made is, in my experience, approximately 1:4."</p>
-  <cite>— Me · <em>unpublished draft, 2023</em></cite>
+  <p>"Remember that the most beautiful things in life are often the most useless; peacocks and lilies for instance."</p>
+  <cite>— John Ruskin</cite>
 </div>
 
 <div class="rule-ornament" aria-hidden="true"><span>❧</span></div>

@@ -7,8 +7,8 @@ description: "Where to find me around the internet."
 ---
 
 <div class="post-epigraph">
-  <p>"You can find me in several places. Whether this constitutes a presence is a matter of interpretation."</p>
-  <cite>— Me · <em>written just now, for this page</em></cite>
+  <p>"Now more than ever do I realize that I will never be content with a sedentary life, that I will always be haunted by thoughts of a sun-drenched elsewhere."</p>
+  <cite>— Isabelle Eberhardt · <em>The Nomad: Diaries of Isabelle Eberhardt</em></cite>
 </div>
 
 <div class="rule-ornament" aria-hidden="true"><span>❧</span></div>
