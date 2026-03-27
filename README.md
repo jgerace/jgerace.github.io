@@ -1,6 +1,6 @@
 # Marginalia
 
-A Jekyll theme for personal sites with a literary, dry-wit sensibility. Built around an inline margin note system — notes sit beside the text they annotate on desktop, and become tap-to-reveal toggles on mobile.
+A Jekyll theme for personal sites with a literary sensibility. Built around an inline margin note system — notes sit beside the text they annotate on desktop, and become tap-to-reveal toggles on mobile.
 
 ---
 
@@ -32,7 +32,6 @@ marginalia/
 │   ├── sn.html             # ← sidenote include (auto-numbered)
 │   ├── margin-note.html    # alias → mn.html
 │   ├── sidenote.html       # alias → sn.html
-│   ├── sidenote.html     # ← sidenote (auto-numbered)
 │   └── icons/            # SVG icon partials
 ├── _layouts/
 │   ├── default.html
@@ -49,13 +48,16 @@ marginalia/
 │   ├── _layout.scss
 │   ├── _post.scss        # Margin note system lives here
 │   ├── _projects.scss
+│   ├── _syntax.scss
 │   └── _tags.scss
 ├── assets/css/main.scss
+├── tags/index.html
+├── writing/index.html
 ├── index.html            # Homepage (must be .html for jekyll-paginate)
 ├── projects.md
 ├── elsewhere.md
-├── tags.md
 ├── colophon.md
+├── contact.md
 ├── 404.md
 └── humans.txt
 ```
@@ -94,7 +96,7 @@ redirect_from: /old-url-slug/   # for URL migration
 
 Notes are written **inline** inside normal Markdown paragraphs — no wrapper divs, no per-paragraph includes.
 
-**Margin note** (no number, ⊕ toggle on mobile):
+**Margin note** (no number, † toggle on mobile):
 
 ```markdown
 Some text{% include mn.html id="unique-id" note="Your aside." %} continues normally.
@@ -210,15 +212,3 @@ All design tokens are in `_sass/_variables.scss`:
 | `$margin-gap` | `2.5rem` | Gap between text and margin |
 | `$max-width` | `940px` | Maximum site width |
 | `$bp-medium` | `720px` | Breakpoint where margin collapses |
-
----
-
-## Easter eggs
-
-- HTML comment in `<head>` of `default.html`
-- `humans.txt` at the root
-- `::selection` colour — add to `_base.scss`: `::selection { background: #f5ead0; }`
-- 404 page with personality
-- Footer note varies per page via `footer_note` front matter
-- Colophon page at `/colophon/`
-- Kitchen sink post at `/writing/2020/01/kitchen-sink/` (unpublish when ready)
