@@ -5,7 +5,7 @@ classes: wide
 tags:
   - writing
   - ai
-redirect_from: /ai-and-writing
+redirect_from: /ai-and-writing/
 ---
 
 Machine-generated writing has been around for a while. I used to run different data sets from Project Gutenberg through a [Markov chain script](https://github.com/jgerace/literarylovechild) I had written and I used to play with neural networks, then came GPT-2, which blew all of the previous stuff away. Still, I wouldn't have wanted to read anything those technologies wrote. They created an occasional interesting line and image, which made them more apt to poetry than to prose, but they just weren't coherent enough to produce anything of real value on their own.

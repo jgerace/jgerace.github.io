@@ -6,7 +6,7 @@ tags:
   - mfa
   - career
   - personal finance
-redirect_from: /worth-of-an-mfa-program
+redirect_from: /worth-of-an-mfa-program/
 ---
 
 Every now and then I see posts on Reddit asking about MFA programs: Is it worth pursuing?

@@ -6,7 +6,7 @@ tags:
   - software
   - career
   - senior-engineers-guide
-redirect_from: /document-your-intent
+redirect_from: /document-your-intent/
 ---
 
 In the fall of 2015, Peloton's tax partner, Avalara experience an outage on Black Friday, during which their tax calculation API was entirely down. Peloton used this API to determine that amount of tax due for an order in a given postal code for a given basket of goods, which is more complicated than it sounds because it considers a combination of state and local taxes, which includes the type of products in the order (clothes and exercise equipment may be taxed at different rates, for example), and it tracks the aggregate amount of tax the company owes to each state in which it operates.

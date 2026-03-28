@@ -4,7 +4,7 @@ excerpt: "Oh my God. Who the hell cares? - Peter Griffin"
 tags:
   - book review
   - literature
-redirect_from: /book-wolf-hall
+redirect_from: /book-wolf-hall/
 ---
 
 ![Front cover of Wolf Hall by Hilary Mantel - By May be found at the following website: https://www.amazon.co.uk/Wolf-Hall-Hilary-Mantel/dp/0007230184., Fair use, https://en.wikipedia.org/w/index.php?curid=24601780]({{ site.url }}{{ site.baseurl }}/assets/images/cover-wolf-hall.jpeg){: .align-center}

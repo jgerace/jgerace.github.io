@@ -4,7 +4,7 @@ excerpt: "I love using the I Ching as a meditation tool. You should give it a tr
 tags:
   - software
   - project
-redirect_from: /new-project-i-ching
+redirect_from: /new-project-i-ching/
 ---
 
 ![Diagram of the I Ching by Unknown author - Perkins, Franklin. Leibniz and China: A Commerce of Light. Cambridge: Cambridge UP, 2004. 117. Print., Public Domain, https://commons.wikimedia.org/w/index.php?curid=36231359]({{ site.url }}{{ site.baseurl }}/assets/images/i-ching-diagram.jpeg){: .align-center}

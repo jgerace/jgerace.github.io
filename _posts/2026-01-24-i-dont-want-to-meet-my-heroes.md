@@ -5,7 +5,7 @@ tags:
   - writing
   - art
   - life
-redirect_from: /i-dont-want-to-meet-my-heroes
+redirect_from: /i-dont-want-to-meet-my-heroes/
 ---
 
 I've had the opportunity over the years to meet some famous people I really admired, mostly writers of some sort at readings or conventions or just in the course of grad school. In some ways it's a really neat experience because they become more humanized, actual people instead of the god-tier art monsters of my imagination. For the most part they're still brilliant in person and they cast an aura that gives them an outsized presence. But I decided a long time ago that if I had a choice, I'd never meet my heroes because it's disappointing nearly 100% of the time.

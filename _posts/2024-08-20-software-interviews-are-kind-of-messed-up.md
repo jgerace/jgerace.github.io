@@ -7,7 +7,7 @@ tags:
   - career
   - peloton
   - leetcode
-redirect_from: /software-interviews-are-kind-of-messed-up
+redirect_from: /software-interviews-are-kind-of-messed-up/
 ---
 
 Everyone in the tech industry knows that software engineering interviews are awful and very few companies have done something about it. Now that I've been on the job market for several months, I've had an updated view of what it's like from the candidate's perspective. At the outset of my job search, I was grinding Leetcode questions because that's what you do. And I got totally slaughtered! My 18 years of professional experience had little bearing on the outcome of this kind of interview!

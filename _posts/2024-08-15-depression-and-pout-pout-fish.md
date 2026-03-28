@@ -5,7 +5,7 @@ tags:
   - children's books
   - literature
   - depression
-redirect_from: /depression-and-pout-pout-fish
+redirect_from: /depression-and-pout-pout-fish/
 ---
 
 ![Front cover of The Pout Pout Fish by Deborah Diesen - from Macmillan Publishers - https://us.macmillan.com/books/9780374312190/thepoutpoutfish/]({{ site.url }}{{ site.baseurl }}/assets/images/cover-pout-pout-fish.jpeg){: .align-center}

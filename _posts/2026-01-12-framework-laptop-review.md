@@ -3,7 +3,7 @@ title: "My Thoughts on the Framework Laptop"
 excerpt: "It's a computer!"
 tags:
   - tech
-redirect_from: /framework-laptop-review
+redirect_from: /framework-laptop-review/
 ---
 
 I've had my [Framework](http://www.frame.work) laptop since November 2025, and I've been using it daily, but a lot of the reviews I encountered before buying it didn't really seem to address the stuff that gets a little annoying, most of which wouldn't have been a deal breaker, but there are a few things that really make me shake my fist angrily.

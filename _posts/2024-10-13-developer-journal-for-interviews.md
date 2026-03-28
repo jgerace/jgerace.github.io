@@ -6,7 +6,7 @@ tags:
   - software
   - interviewing
   - career
-redirect_from: /developer-journal-for-interviews
+redirect_from: /developer-journal-for-interviews/
 ---
 As an unemployed Senior Software Engineer who's been on the job hunt for over 5 months as of this writing, I've had ample time to reflect on my tenure at my last company. Although my departure was not of my own volition - layoffs, ugh - I've been thinking about what I could have done to better prepare myself for a job search.
 

@@ -4,7 +4,7 @@ excerpt: "The practice of reading and critiquing is essential to improving your 
 tags:
   - writing
   - workshop
-redirect_from: /writing-workshop-reader-advice
+redirect_from: /writing-workshop-reader-advice/
 ---
 
 There's nothing more nourishing to a writer's growth than having a captive readership forced to offer feedback. But let's face it: your mom is never going to like your short stories and your friends say they'll read them and give honest commentary, but they definitely won't even open the document. Hence, workshops!

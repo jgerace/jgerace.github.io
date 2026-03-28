@@ -11,7 +11,7 @@ tags:
   - art
   - sausagehead
   - life
-redirect_from: /how-i-met-the-prime-minister-of-dick
+redirect_from: /how-i-met-the-prime-minister-of-dick/
 ---
 
 The Prime Minister of Dick (PMD) is an artist in NYC who specializes in dicks. [This article from Vice](https://www.vice.com/sv/article/the-prime-minister-of-dick-is-the-best-penis-artist-on-earth-666/) sums him up pretty well:

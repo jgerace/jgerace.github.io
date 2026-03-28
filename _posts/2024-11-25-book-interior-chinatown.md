@@ -4,7 +4,7 @@ excerpt: "Maybe some day I'll become Kung Fu Dad too..."
 tags:
   - book review
   - literature
-redirect_from: /book-interior-chinatown
+redirect_from: /book-interior-chinatown/
 ---
 
 ![Front cover of Interior Chinatown by Charles Yu. By https://www.penguinrandomhouse.com/books/216162/interior-chinatown-by-charles-yu/, Fair use, https://en.wikipedia.org/w/index.php?curid=63450157]({{ site.url }}{{ site.baseurl }}/assets/images/cover-interior-chinatown.png){: .align-center}

@@ -4,7 +4,7 @@ excerpt: "I related to this book a little more than I'm comfortable with..."
 tags:
   - book review
   - literature
-redirect_from: /book-bright-lights-big-city
+redirect_from: /book-bright-lights-big-city/
 ---
 
 ![Front cover of Bright Lights, Big City by Jay McInerney]({{ site.url }}{{ site.baseurl }}/assets/images/cover-bright-lights-big-city.jpeg){: .align-center}

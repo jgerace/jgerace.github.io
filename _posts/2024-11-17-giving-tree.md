@@ -5,7 +5,7 @@ tags:
   - children's books
   - literature
   - life
-redirect_from: /giving-tree
+redirect_from: /giving-tree/
 ---
 
 ![Front cover of The Giving Tree by Shel Silverstein. Fair use, https://en.wikipedia.org/w/index.php?curid=4924961]({{ site.url }}{{ site.baseurl }}/assets/images/cover-the-giving-tree.jpeg){: .align-center}

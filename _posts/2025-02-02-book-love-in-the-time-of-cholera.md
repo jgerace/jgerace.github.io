@@ -4,7 +4,7 @@ excerpt: "Thanks, but no thanks."
 tags:
   - book review
   - literature
-redirect_from: /book-love-in-the-time-of-cholera
+redirect_from: /book-love-in-the-time-of-cholera/
 ---
 
 ![Front cover of Love in the Time of Cholera by Gabriel García Márquez - from https://www.goodreads.com/book/show/118039.Love_in_the_Time_of_Cholera]({{ site.url }}{{ site.baseurl }}/assets/images/cover-love-in-the-time-of-cholera.jpeg){: .align-center}

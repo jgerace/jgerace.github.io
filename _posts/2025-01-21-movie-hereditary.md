@@ -4,7 +4,7 @@ excerpt: "Holy crap, what an experience!"
 tags:
   - movie review
   - horror
-redirect_from: /movie-hereditary
+redirect_from: /movie-hereditary/
 ---
 
 ![Theatrical release poster for Hereditary - from https://en.wikipedia.org/wiki/File:Hereditary.png]({{ site.url }}{{ site.baseurl }}/assets/images/poster-hereditary.png){: .align-center}

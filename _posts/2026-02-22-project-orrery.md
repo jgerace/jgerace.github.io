@@ -6,7 +6,7 @@ tags:
   - art
   - projects
   - tech
-redirect_from: /project-orrery
+redirect_from: /project-orrery/
 ---
 
 ![Screenshot of the interactive orrery]({{ site.url }}{{ site.baseurl }}/assets/images/project-orrery.png){: .align-center}

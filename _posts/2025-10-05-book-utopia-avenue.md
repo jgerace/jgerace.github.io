@@ -4,7 +4,7 @@ excerpt: "Musically palatable"
 tags:
   - book review
   - literature
-redirect_from: /book-utopia-avenue
+redirect_from: /book-utopia-avenue/
 ---
 
 ![By https://www.hodder.co.uk/titles/david-mitchell-6/utopia-avenue/9781444799422/, Fair use, https://en.wikipedia.org/w/index.php?curid=64610180]({{ site.url }}{{ site.baseurl }}/assets/images/cover-utopia-avenue.png){: .align-center}

@@ -3,7 +3,7 @@ title: "Movie Review: _Freaks_"
 excerpt: "X-Men without boarding schools."
 tags:
   - movie review
-redirect_from: /movie-freaks
+redirect_from: /movie-freaks/
 ---
 
 ![Theatrical release poster for Freaks - By https://www.imdb.com/title/tt8781414/, Fair use, https://en.wikipedia.org/w/index.php?curid=59483585]({{ site.url }}{{ site.baseurl }}/assets/images/poster-freaks.jpeg){: .align-center}

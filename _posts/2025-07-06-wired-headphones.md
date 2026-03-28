@@ -4,7 +4,7 @@ excerpt: "Sneaky sneaky sneaky..."
 tags:
   - design
   - til
-redirect_from: /wired-headphones
+redirect_from: /wired-headphones/
 ---
 
 I love the convenience of wired headphones - I never have to worry about batteries and I'm way way way less likely to lose them. They won't drop out of my ears or my pocket and disappear forever.

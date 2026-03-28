@@ -7,7 +7,7 @@ tags:
   - code-kata
   - career
   - senior-engineers-guide
-redirect_from: /gilded-rose-kata
+redirect_from: /gilded-rose-kata/
 wide: true
 ---
 

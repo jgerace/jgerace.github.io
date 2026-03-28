@@ -7,7 +7,7 @@ tags:
   - writing
   - parenthood
   - career
-redirect_from: /writing-as-a-parent
+redirect_from: /writing-as-a-parent/
 ---
 
 I've heard Richard Ford offer this advice more than once and I hate it. He's pretty adamant about this nugget, but it's clearly ridiculous and extreme (as is some of his other advice, which maybe I'll write about separately). There are tons of great, successful writers who have kids: Michael Chabon + Ayelet Waldman - 4 kids, Emily Raboteau + Victor LaValle - 2 kids, Jhumpa Lahiri - 2 kids, Colson Whitehead - 2 kids, Karen Russell - 2 kids to name a few. These writers also have lots of talent, but still...kids. Ford's advice is more relevant to how *he* became a writer, and while I'm pretty sure that he's not wrong, it's a truism that you're more likely to be successful at anything if you don't have kids. Ask any working parent about their career.

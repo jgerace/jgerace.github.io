@@ -6,7 +6,7 @@ tags:
   - software
   - career
   - senior-engineers-guide
-redirect_from: /ecommerce-and-auditability
+redirect_from: /ecommerce-and-auditability/
 ---
 
 ### ✦ &ensp; Why does good software go bad? &ensp; ✦
