@@ -13,7 +13,8 @@
     <a href="{{ '/colophon/' | relative_url }}" class="site-footer__colophon">colophon</a>
   </div>
   <p class="site-footer__note">
-    <span class="site-footer__copyright">&copy; {{ site.copyright_year }}{% assign current_year = site.time | date: "%Y" %}{% if current_year != site.copyright_year %}&ndash;{{ current_year }}{% endif %} {{ site.author.name }}.</span>
+    <span class="site-footer__copyright">Copyright &copy; {{ site.copyright_year }}{% assign current_year = site.time | date: "%Y" %}{% if current_year != site.copyright_year %}&ndash;{{ current_year }}{% endif %} {{ site.author.name }}, All rights reserved.</span>
+    <span class="site-footer__copyright"><b>NO AI TRAINING:</b> Without in any way limiting the author’s exclusive rights under copyright, any use of this publication to “train” generative artificial intelligence (AI) technologies is expressly prohibited. The author reserves all rights to license uses of this work for generative AI training and development of machine learning models.</span>
     {% if page.footer_note %}
       {{ page.footer_note }}
     {% else %}
