@@ -4,12 +4,19 @@ layout: default
 
 <article itemscope itemtype="https://schema.org/BlogPosting">
 
+{% unless page.read_time %}
+  {% assign words = page.content | strip_html | strip_newlines | split: ' ' | size %}
+  {% assign read_time = words | divided_by: site.reading_wpm | plus: 1 %}
+{% else %}
+  {% assign read_time = page.read_time %}
+{% endunless %}
+
 <div class="post-header">
   <div class="post-header__meta">
     {% for tag in page.tags %}<meta itemprop="keywords" content="{{ tag }}">{% endfor %}
     {% if page.date %}
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time>
-    {% if page.read_time %} · {{ page.read_time }} min.{% endif %}
+    {% if read_time %} · {{ read_time }} min.{% endif %}
     {% if page.read_time_note %} <em>{{ page.read_time_note }}</em>{% endif %}
     {% endif %}
   </div>

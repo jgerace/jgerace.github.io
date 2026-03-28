@@ -1,6 +1,6 @@
 # Marginalia
 
-A Jekyll theme for personal sites with a literary sensibility. Built around an inline margin note system — notes sit beside the text they annotate on desktop, and become tap-to-reveal toggles on mobile.
+A Jekyll theme for personal sites with a literary, dry-wit sensibility. Built around an inline margin note system — notes sit beside the text they annotate on desktop, and become tap-to-reveal toggles on mobile.
 
 ---
 
@@ -21,24 +21,21 @@ Site runs at `http://localhost:4000`.
 
 ```
 marginalia/
-├── _config.yml           # Site settings, journal volume, hire block, home_post_count
-├── _data/
-│   └── links.yml         # Social / elsewhere links
+├── _config.yml           # Site settings — edit this first
 ├── _includes/
 │   ├── masthead.html
 │   ├── footer.html
 │   ├── social-links.html
-│   ├── mn.html             # ← margin note include (no number)
-│   ├── sn.html             # ← sidenote include (auto-numbered)
-│   ├── margin-note.html    # alias → mn.html
-│   ├── sidenote.html       # alias → sn.html
-│   └── icons/            # SVG icon partials
+│   ├── mn.html           # ← margin note include (no number)
+│   ├── sn.html           # ← sidenote include (auto-numbered)
+│   ├── margin-note.html  # alias → mn.html
+│   ├── sidenote.html     # alias → sn.html
+│   ├── youtube.html      # ← responsive YouTube embed
+│   └── icons/            # SVG icon partials (one file per platform)
 ├── _layouts/
 │   ├── default.html
 │   ├── home.html
-│   ├── post.html
-│   ├── project.html
-│   └── tag.html
+│   └── post.html
 ├── _posts/               # Blog posts (.md)
 ├── _projects/            # Project entries (.md)
 ├── _sass/
@@ -48,17 +45,20 @@ marginalia/
 │   ├── _layout.scss
 │   ├── _post.scss        # Margin note system lives here
 │   ├── _projects.scss
-│   ├── _syntax.scss
+│   ├── _syntax.scss      # Code syntax highlighting
 │   └── _tags.scss
 ├── assets/css/main.scss
-├── tags/index.html
-├── writing/index.html
+├── writing/
+│   └── index.html        # Paginated writing archive
+├── tags/
+│   └── index.html        # Tag index page
 ├── index.html            # Homepage (must be .html for jekyll-paginate)
 ├── projects.md
 ├── elsewhere.md
-├── colophon.md
 ├── contact.md
+├── colophon.md
 ├── 404.md
+├── robots.txt
 └── humans.txt
 ```
 
@@ -70,25 +70,24 @@ marginalia/
 
 ```yaml
 ---
-title: 'Your post title'          # use single quotes if title contains Markdown
-# title: "Your post title"        # double quotes will escape * and _ characters
+title: 'Your post title'       # use single quotes if title contains Markdown
 date: 2026-01-01
 tags: [typography, process]
 mood: "wistful, decisive"
-mood_colour: red          # red | blue | green | amber
-margin_notes: true        # set to true if post uses margin notes; omit or false for centred layout
-description: 'Used for SEO meta description and social sharing previews.
-                          # Falls back to lede, then excerpt if not set.'
-wide: true                # full-width mode — expands to fill site width, collapses margin notes inline.
-                          # Good for technical posts with large code blocks.
+mood_colour: red               # red | blue | green | amber
+margin_notes: true             # set to true if post uses margin notes; omit for centred layout
+wide: true                     # full-width mode — expands to fill site width, collapses margin notes
+                               # Good for technical posts with large code blocks
+description: "Used for SEO meta description and social sharing previews.
+              Falls back to lede, then excerpt if not set."
 lede: "A sentence below the title."
 byline_note: "optional parenthetical after your name"
-read_time: 6
+read_time: 6              # optional — auto-calculated from content if omitted
 epigraph: "A quote that opens the post."
 epigraph_source: "— Who Said It"
 footer_note: "A custom footer note for this post."
 excerpt: "Used in the post list."
-redirect_from: /old-url-slug/   # for URL migration
+redirect_from: /old-url-slug/  # for URL migration
 ---
 ```
 
@@ -96,13 +95,13 @@ redirect_from: /old-url-slug/   # for URL migration
 
 Notes are written **inline** inside normal Markdown paragraphs — no wrapper divs, no per-paragraph includes.
 
-**Margin note** (no number, † toggle on mobile):
+**Margin note** (no number, † toggle on mobile and in wide mode):
 
 ```markdown
 Some text{% include mn.html id="unique-id" note="Your aside." %} continues normally.
 ```
 
-**Sidenote** (auto-numbered via CSS counter, number toggle on mobile):
+**Sidenote** (auto-numbered via CSS counter, number toggle on mobile and in wide mode):
 
 ```markdown
 Some text{% include sn.html id="unique-id" note="Your numbered aside." %} continues.
@@ -112,16 +111,27 @@ Some text{% include sn.html id="unique-id" note="Your numbered aside." %} contin
 - Each `id` must be unique within the page — use a short descriptive slug
 - Notes can contain basic inline HTML (`<em>`, `<a>`, `<code>`) but not block elements
 - Multiple notes in one paragraph are fine — they stack in the margin with `clear: right`
+- Margin notes do not work inside Markdown files that mix HTML blocks — use pure Markdown or pure HTML
 
 ### Kramdown footnotes
 
-You can also use standard Kramdown footnote syntax alongside margin notes:
+Standard Kramdown footnote syntax works alongside margin notes:
 
 ```markdown
 Some text with a footnote.[^1]
 
 [^1]: The footnote text, which appears at the bottom of the page.
 ```
+
+### Embedded YouTube videos
+
+```markdown
+{% include youtube.html id="VIDEOID" %}
+{% include youtube.html id="VIDEOID" width="640" height="360" %}
+{% include youtube.html id="VIDEOID" controls="0" start="90" %}
+```
+
+Defaults to 1280×720 (16:9) if width/height are omitted.
 
 ---
 
@@ -208,7 +218,21 @@ All design tokens are in `_sass/_variables.scss`:
 | `$pop-red` | `#c84b2f` | Drop caps, note marks, hover states |
 | `$paper` | `#f6f1e7` | Page background |
 | `$paper-dark` | `#ede4d0` | Surfaces, code blocks |
-| `$margin-col` | `210px` | Width of the margin note column |
-| `$margin-gap` | `2.5rem` | Gap between text and margin |
-| `$max-width` | `940px` | Maximum site width |
+| `$margin-col` | `220px` | Width of the margin note column |
+| `$margin-gap` | `44px` | Gap between text and margin |
+| `$max-width` | `980px` | Maximum site width |
 | `$bp-medium` | `720px` | Breakpoint where margin collapses |
+
+The hire block on the homepage is toggled by `hiring: true/false` in `_config.yml`.
+
+The number of recent posts shown on the homepage is set by `home_post_count` (default: 5). The full paginated archive lives at `/writing/`.
+
+---
+
+## Contact form
+
+The contact page at `/contact/` submits to Formspree. To change the endpoint, update the `action` attribute in `contact.md`:
+
+```html
+<form class="contact-form" action="https://formspree.io/f/yourcode" method="POST">
+```

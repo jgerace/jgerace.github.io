@@ -81,6 +81,12 @@ kramdown:
 # permalink: /writing/:year/:month/:slug/
 permalink: /writing/:slug/
 
+# Reading speed — used to auto-calculate read time on posts
+reading_wpm: 200
+
+# Copyright start year — used in footer date range
+copyright_year: 2024
+
 # Homepage
 home_post_count: 5   # number of recent posts shown on the homepage
 

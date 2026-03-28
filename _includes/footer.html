@@ -13,7 +13,7 @@
     <a href="{{ '/colophon/' | relative_url }}" class="site-footer__colophon">colophon</a>
   </div>
   <p class="site-footer__note">
-    <span class="site-footer__copyright">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}.</span>
+    <span class="site-footer__copyright">&copy; {{ site.copyright_year }}{% assign current_year = site.time | date: "%Y" %}{% if current_year != site.copyright_year %}&ndash;{{ current_year }}{% endif %} {{ site.author.name }}.</span>
     {% if page.footer_note %}
       {{ page.footer_note }}
     {% else %}
