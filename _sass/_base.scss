@@ -1,0 +1,191 @@
+// _sass/_base.scss
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+}
+
+// ── Skip link ───────────────────────────────────────────
+// Visually hidden until focused — keyboard users can skip
+// past the masthead directly to main content
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 100;
+  font-family: $font-mono;
+  font-size: 12px;
+  background: $ink;
+  color: $paper;
+  padding: 8px 16px;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+
+  &:focus {
+    top: 1rem;
+  }
+}
+
+body {
+  background: $paper;
+  color: $ink;
+  font-family: $font-serif;
+  line-height: 1.6;
+}
+
+// ── Site wrapper ────────────────────────────────────────
+.site-wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 2.5rem $site-padding;
+}
+
+// ── Ornaments ───────────────────────────────────────────
+.ornament {
+  text-align: center;
+  color: $ink-faint;
+  font-size: 16px;
+  margin: 2rem 0;
+  letter-spacing: 0.3em;
+}
+
+.rule-ornament--spaced { margin-top: 2.5rem; }
+
+.rule-ornament {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2rem 0 1.5rem;
+
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: $rule;
+  }
+
+  span {
+    font-size: 13px;
+    color: $ink-faint;
+  }
+}
+
+.section-label {
+  font-family: $font-mono;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: $ink-soft;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 0.5px;
+    background: $rule;
+  }
+}
+
+// ── Mood / status chips ─────────────────────────────────
+.mood-chip {
+  display: inline-block;
+  font-family: $font-mono;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 1px;
+
+  &.chip-red    { background: $pop-red-bg;    color: $pop-red; }
+  &.chip-blue   { background: $pop-blue-bg;   color: $pop-blue; }
+  &.chip-green  { background: $pop-green-bg;  color: $pop-green; }
+  &.chip-amber  { background: $pop-amber-bg;  color: $pop-amber; }
+}
+
+// ── Utility ─────────────────────────────────────────────
+.fn {
+  font-size: 0.65em;
+  vertical-align: super;
+  font-family: $font-mono;
+  color: $pop-red;
+  font-style: normal;
+  line-height: 0;
+}
+
+// ── Footer ──────────────────────────────────────────────
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $rule;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+
+  @media (max-width: $bp-medium) {
+    grid-template-columns: 1fr;
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__colophon {
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    text-decoration: none;
+
+    &:hover { color: $ink; }
+  }
+
+  &__note {
+    font-size: 13px;
+    color: $ink-soft;
+    font-style: italic;
+    line-height: 1.8;
+  }
+
+  &__copyright {
+    font-family: $font-mono;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: $ink-soft;
+    font-style: normal;
+    display: block;
+    margin-bottom: 4px;
+  }
+}
+
+// Footer social links — smaller and muted vs. homepage version
+.social-links--footer {
+  gap: 8px;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+
+  a {
+    color: $ink-faint;
+    &:hover { color: $ink; }
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  // Labels use sr-only class — visible to screen readers, hidden visually
+}

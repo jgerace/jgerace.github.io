@@ -1,0 +1,27 @@
+{% comment %}
+  Responsive YouTube embed.
+
+  Usage:
+    {% include youtube.html id="QEHR9xXkMr8" %}
+    {% include youtube.html id="QEHR9xXkMr8" width="640" height="360" %}
+
+  Parameters:
+    id       — YouTube video ID (required)
+    width    — native video width, e.g. "640" (default: "1280")
+    height   — native video height, e.g. "360" (default: "720")
+    title    — iframe title for accessibility
+    start    — start time in seconds
+    controls — set to "0" to hide controls (default: "1")
+{% endcomment %}
+
+{% assign vid_width  = include.width    | default: "1280" %}
+{% assign vid_height = include.height   | default: "720" %}
+{% assign controls   = include.controls | default: "1" %}
+
+<div class="video-wrap" style="aspect-ratio: {{ vid_width }} / {{ vid_height }};">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}?controls={{ controls }}{% if include.start %}&start={{ include.start }}{% endif %}"
+    title="{{ include.title | default: 'YouTube video' }}"
+    allowfullscreen
+  ></iframe>
+</div>

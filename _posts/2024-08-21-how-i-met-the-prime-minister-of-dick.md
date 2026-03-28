@@ -1,6 +1,8 @@
 ---
 title: "How I met The Prime Minister of Dick and learned how to do my thing"
 excerpt: "A fervent belief in oneself is infectious."
+epigraph: "If you wind up with a boring, miserable life because you listened to your mother, your Dad, your priest, to some guy on television, to any of the people telling you how to do your shit, then you deserve it."
+epigraph_source: "- Frank Zappa"
 tags:
   - software
   - writing
@@ -9,10 +11,8 @@ tags:
   - art
   - sausagehead
   - life
+redirect_from: /how-i-met-the-prime-minister-of-dick
 ---
-
-> If you wind up with a boring, miserable life because you listened to your mother, your Dad, your priest, to some guy on television, to any of the people telling you how to do your shit, then you deserve it.
-> <cite>Frank Zappa</cite>
 
 The Prime Minister of Dick (PMD) is an artist in NYC who specializes in dicks. [This article from Vice](https://www.vice.com/sv/article/the-prime-minister-of-dick-is-the-best-penis-artist-on-earth-666/) sums him up pretty well:
 
@@ -36,7 +36,7 @@ I don't know if he was self-conscious about what people would think about his ar
 
 This short documentary by Yair Vurnbrand showcases PMD's unbridled enthusiasm:
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/QEHR9xXkMr8?controls=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id="QEHR9xXkMr8" title="Example YouTube video" width="640" height="360" controls="0" %}
 
 With pretty much everything I do, either on the job or in my writing, I often second-guess myself and wonder what other people will think of what I'm making. Will they see in it what I see? Will they *like* it? Will they think I've wasted their time? Whether PMD cares about what other people think or not, he's still doing the work he wants to do and he's proud of it. He's doing justice to his art in a way that few people have the courage to do.
 

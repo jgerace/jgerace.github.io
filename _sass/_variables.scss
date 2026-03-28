@@ -1,0 +1,38 @@
+// _sass/_variables.scss
+
+// ── Typography ──────────────────────────────────────────
+$font-serif:      'EB Garamond', Georgia, serif;
+$font-display:    'Cormorant Garamond', Georgia, serif;
+$font-mono:       'JetBrains Mono', 'Courier New', monospace;
+
+// ── Colour palette ──────────────────────────────────────
+$paper:           #f6f1e7;
+$paper-dark:      #ede4d0;
+$rule:            #d4c9b0;
+
+$ink:             #1e1a14;
+$ink-mid:         #4a4236;
+$ink-soft:        #8a7d6b;
+$ink-faint:       #c4b89e;
+
+// Accent — drop cap, footnote marks, hover states
+$pop-red:         #c84b2f;
+$pop-red-bg:      #fdf0ec;
+
+// Status chips
+$pop-blue:        #2a5fa8;
+$pop-blue-bg:     #eaf0fb;
+$pop-green:       #2d6b45;
+$pop-green-bg:    #e8f5ee;
+$pop-amber:       #b86a00;
+$pop-amber-bg:    #fdf3e0;
+
+// ── Spacing ─────────────────────────────────────────────
+$margin-col:      220px;   // width of the right margin column
+$margin-gap:      44px;    // gap between body and margin (px avoids mixed-unit calc issues)
+$max-width:       980px;
+$site-padding:    32px;
+
+// ── Breakpoints ─────────────────────────────────────────
+$bp-medium:       720px;   // below this, margin col collapses
+$bp-medium-up:    721px;   // use for min-width queries — avoids $bp-medium + 1 arithmetic

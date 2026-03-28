@@ -1,0 +1,10 @@
+<ul class="social-links social-links--intro" aria-label="Social links">
+  {% for link in site.links %}
+  <li>
+    <a href="{{ link.url }}" title="{{ link.platform }}" rel="me noopener" target="_blank">
+      {% include icons/{{ link.icon }}.html %}
+      <span class="social-links__label">{{ link.platform }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

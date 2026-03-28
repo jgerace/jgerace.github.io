@@ -7,6 +7,7 @@ tags:
   - career
   - art
   - life
+redirect_from: /write-like-nobodys-watching
 ---
 
 I'm convinced that this is the oldest story in the world: a writer has a great idea. They're brimming with enthusiasm and pumped to get their ideas on paper. Writing is a long, arduous process, but this story is totally going to be worth it. They write a chapter, maybe a second. They begin to see holes in the story, they feel like they're maybe not ready to write something so complicated. They notice similarities to other great stories they admire -- really popular ones. They realize that, actually, their story isn't very original at all, that it's so similar to these other things that they couldn't possibly allow themselves to write their version, something that wouldn't be anything more than a cheap knockoff. Nobody would read it and on the off chance that someone did, they'd ridicule it for being so derivative. They'd mock the author for having wasted everyone's time. Discouraged and ashamed, the writer quits and their great idea, the idea they once loved so dearly, never gets the chance to grow and live in the world.
@@ -19,7 +20,7 @@ This writer got ahead of themselves. Their concerns were unfounded and self-defe
 
 What can we tell this writer to bring them back to the page?
 
-### Originality doesn't matter
+### ✦ &ensp; Originality doesn't matter
 
 It's been said that every story has already been told. Refer to Christopher Booker's [*The Seven Basic Plots*](https://en.wikipedia.org/wiki/The_Seven_Basic_Plots) and Grant Snider's ["9 Conflicts in Literature"](http://www.incidentalcomics.com/2014/05/conflict-in-literature.html?m=1).
 
@@ -33,7 +34,7 @@ Do we ever notice those similarities? Of course. We look at them as homage or th
 
 To our imaginary writer I say: Go ahead and write your version. I guarantee that whatever you end up with will be something only you could have written. You'll have to make decisions along the way that will add up to a story that's completely different than what you thought it would be. You'll have moments of inspiration where you'll say to yourself, "Wouldn't it be cool if...?" Yes, it *would* be pretty cool!
 
-### Writing should be rewarding
+### ✦ &ensp; Writing should be rewarding
 
 The only reason a writer needs in order to write a story is that it's fun and satisfying.
 
@@ -45,7 +46,7 @@ Writing can be a rewarding process despite the challenges of creating something 
 
 George Saunders said the best advice he ever received was from Tobias Wolff, who told him, ["Just don't lose the magic."](https://lithub.com/george-saunders-on-the-best-writing-advice-hes-received/)
 
-### Nobody's watching!
+### ✦ &ensp; Nobody's watching!
 
 Seriously.
 

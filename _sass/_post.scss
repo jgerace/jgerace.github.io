@@ -1,0 +1,619 @@
+// _sass/_post.scss
+
+// ── Post header ─────────────────────────────────────────
+.post-header {
+  text-align: center;
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid $rule;
+  max-width: 660px;
+  margin: 0 auto;
+
+  &__meta {
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    color: $ink-soft;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  &__title {
+    font-family: $font-display;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 14px;
+    color: $ink;
+
+    @media (max-width: $bp-medium) { font-size: 30px; }
+  }
+
+  &__lede {
+    font-size: 17px;
+    font-style: italic;
+    color: $ink-mid;
+    line-height: 1.7;
+    margin: 0 0 14px;
+  }
+
+  &__byline {
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: $ink-soft;
+    text-transform: uppercase;
+
+    span { color: $ink-mid; }
+    em {
+      font-style: italic;
+      text-transform: none;
+      color: $ink-faint;
+      letter-spacing: 0.04em;
+    }
+  }
+}
+
+// ── Epigraph ─────────────────────────────────────────────
+.post-epigraph {
+  max-width: 500px;
+  margin: 2.5rem auto;
+  text-align: center;
+
+  p {
+    font-size: 20px;
+    font-style: italic;
+    color: $ink-mid;
+    line-height: 1.8;
+    margin: 0 0 8px;
+  }
+
+  cite {
+    font-size: 11px;
+    color: $ink-soft;
+    font-style: normal;
+    font-family: $font-mono;
+    letter-spacing: 0.06em;
+
+    em { font-style: italic; letter-spacing: 0; }
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// MARGIN NOTE / SIDENOTE SYSTEM
+// ══════════════════════════════════════════════════════════
+//
+// Notes are written inline inside normal Markdown paragraphs.
+// No wrapper divs, no includes per paragraph.
+//
+// Two patterns:
+//
+//   MARGIN NOTE (no number, symbol toggle on mobile):
+//     <label for="mn-slug" class="mn-toggle">†</label>
+//     <input type="checkbox" id="mn-slug" class="mn-toggle-input">
+//     <span class="mn">Note text here.</span>
+//
+//   SIDENOTE (auto-numbered via CSS counter):
+//     <label for="sn-slug" class="sn-toggle sn-number"></label>
+//     <input type="checkbox" id="sn-slug" class="sn-toggle-input">
+//     <span class="sn">Note text here.</span>
+//
+// On desktop (> $bp-medium):
+//   - Notes float into the right margin, aligned to their anchor
+//   - Checkboxes and labels are hidden
+//
+// On mobile (<= $bp-medium):
+//   - Notes are hidden by default
+//   - The label († or superscript number) is visible and clickable
+//   - Checking the checkbox reveals the note inline below the anchor
+// ══════════════════════════════════════════════════════════
+
+// ── Post content wrapper ────────────────────────────────
+.post-content {
+  margin-top: 2rem;
+  // Create a block formatting context so floated notes
+  // don't escape the content column
+  position: relative;
+}
+
+// ── Sidenote counter ────────────────────────────────────
+.post-content {
+  counter-reset: sidenote-counter;
+}
+
+// ── Shared: hide the actual checkbox everywhere ──────────
+.mn-toggle-input,
+.sn-toggle-input {
+  display: none;
+}
+
+// ── Body text ───────────────────────────────────────────
+.post-content {
+
+  p, li {
+    font-size: 18px;
+    line-height: 1.95;
+    color: $ink;
+    margin: 0 0 1.3em;
+    // Provide right clearance so floated notes don't overlap text
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+  }
+
+  h2 {
+    font-family: $font-display;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 2em 0 0.5em;
+    color: $ink;
+    clear: right;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    margin: 2em 0 0.75em;
+    text-align: center;
+    clear: right;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+  }
+
+  blockquote {
+    margin: 0.5em 0 1.3em;
+    padding: 0.5em 1.5em;
+    border-top: 0.5px solid $rule;
+    border-bottom: 0.5px solid $rule;
+    clear: right;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+
+    p {
+      font-size: 17px;
+      font-style: italic;
+      color: $ink-mid;
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  // Inline code
+  code {
+    font-family: $font-mono;
+    font-size: 0.85em;
+    background: $paper-dark;
+    padding: 1px 5px;
+    border-radius: 2px;
+    color: $ink-mid;
+  }
+
+  // Fenced code blocks without syntax highlighting
+  // (highlighted blocks are handled by _syntax.scss)
+  pre:not(.highlight) {
+    background: $paper-dark;
+    border: 0.5px solid $rule;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    margin: 0 0 1.3em;
+    clear: right;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+
+    code {
+      background: none;
+      padding: 0;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+  }
+
+  // Highlighted blocks — styles in _syntax.scss, just constrain width here
+  div.highlight {
+    clear: right;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+  }
+
+  a {
+    color: $ink;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: $ink-faint;
+
+    &:hover { text-decoration-color: $ink; }
+  }
+
+  ul, ol {
+    padding-left: 1.5em;
+    margin: 0 0 1.3em;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 1.9;
+      color: $ink;
+      margin-bottom: 0.25em;
+      width: 100%;
+    }
+  }
+
+  hr {
+    border: none;
+    text-align: center;
+    color: $ink-faint;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    margin: 2rem 0;
+    clear: right;
+    @media (min-width: $bp-medium-up) {
+      width: calc(100% - #{$margin-col} - #{$margin-gap});
+    }
+
+    &::after { content: '⁂'; }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem 0;
+    border: 0.5px solid $rule;
+    clear: right;
+  }
+
+  // Table styles
+  table {
+    width: calc(100% - #{$margin-col} - #{$margin-gap});
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: 0 0 1.3em;
+    clear: right;
+
+    @media (max-width: $bp-medium) { width: 100%; }
+
+    th {
+      font-family: $font-mono;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $ink-soft;
+      border-bottom: 1px solid $rule;
+      padding: 6px 12px 6px 0;
+      text-align: left;
+      font-weight: 400;
+    }
+
+    td {
+      border-bottom: 0.5px solid $rule;
+      padding: 8px 12px 8px 0;
+      color: $ink-mid;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+  }
+}
+
+// Drop cap — first letter of first paragraph only.
+.post-content > p:first-of-type::first-letter,
+.post-content > div:first-of-type:not(.footnotes) p:first-of-type::first-letter,
+.drop-cap::first-letter {
+  font-family: $font-display;
+  font-weight: 400;
+  color: $pop-red;
+  float: left;
+  font-size: 5.5em;
+  line-height: 0.7;
+  padding-right: 0.08em;
+  margin-top: 0.02em;
+  margin-bottom: 0;
+}
+
+@supports (initial-letter: 2) {
+  .post-content > p:first-of-type::first-letter,
+  .post-content > div:first-of-type:not(.footnotes) p:first-of-type::first-letter,
+  .drop-cap::first-letter {
+    initial-letter: 2;
+    float: none;
+    font-size: unset;
+    line-height: unset;
+    padding-right: 0;
+    margin: 0 0.08em 0 0;
+  }
+}
+
+// ── Kramdown footnotes ──────────────────────────────────
+// Reset width so footnotes span the full body column,
+// not just the narrowed text column width
+.post-content .footnotes {
+  clear: right;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 0.5px solid $rule;
+
+  ol {
+    width: 100% !important;
+    padding-left: 1.25em;
+  }
+
+  li {
+    width: 100% !important;
+    font-size: 14px;
+    color: $ink-mid;
+    line-height: 1.7;
+  }
+
+  p {
+    width: 100% !important;
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+// Explicitly prevent drop caps in footnotes, blockquotes, and asides
+.post-content .footnotes p::first-letter,
+.post-content blockquote p::first-letter,
+.post-content aside p::first-letter {
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  float: none;
+  font-size: inherit;
+  line-height: inherit;
+  padding-right: 0;
+  margin: 0;
+  initial-letter: normal;
+}
+
+// ── MARGIN NOTES (no number) ─────────────────────────────
+
+// The toggle label — superscript dagger, visible at all widths
+.mn-toggle {
+  display: inline;
+  color: $pop-red;
+  font-size: 0.65em;
+  vertical-align: super;
+  line-height: 0;
+  font-family: $font-mono;
+  border-bottom: none;
+
+  @media (max-width: $bp-medium) { cursor: pointer; }
+}
+
+// The note span itself
+.mn {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.7;
+  color: $ink-mid;
+
+  @media (min-width: $bp-medium-up) {
+    // Float into right margin, aligned to its anchor
+    float: right;
+    clear: right;
+    width: $margin-col;
+    margin-right: calc(-1 * (#{$margin-col} + #{$margin-gap}));
+    margin-top: 0;
+    padding-top: 0.5rem;
+    border-top: 0.5px solid $rule;
+    vertical-align: baseline;
+    position: relative;
+  }
+
+  @media (max-width: $bp-medium) {
+    // Hidden until toggled
+    display: none;
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem 0.75rem;
+    border-left: 2px solid $rule;
+    font-size: 15px;
+    color: $ink-mid;
+  }
+}
+
+// Show note when checkbox is checked (mobile toggle)
+.mn-toggle-input:checked ~ .mn {
+  @media (max-width: $bp-medium) { display: block; }
+}
+
+// ── SIDENOTES (auto-numbered) ────────────────────────────
+
+// The number label — superscript on desktop AND mobile
+.sn-toggle {
+  counter-increment: sidenote-counter;
+  display: inline; // visible at all widths
+
+  &::after {
+    content: counter(sidenote-counter);
+    font-size: 0.65em;
+    vertical-align: super;
+    line-height: 0;
+    font-family: $font-mono;
+    color: $pop-red;
+  }
+
+  @media (max-width: $bp-medium) { cursor: pointer; }
+}
+
+// The note span itself — also carries the counter
+.sn {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.7;
+  color: $ink-mid;
+
+  // Number prefix inside the note
+  &::before {
+    content: counter(sidenote-counter) ".\00a0";
+    font-family: $font-mono;
+    font-size: 10px;
+    color: $pop-red;
+    font-style: normal;
+  }
+
+  @media (min-width: $bp-medium-up) {
+    float: right;
+    clear: right;
+    width: $margin-col;
+    margin-right: calc(-1 * (#{$margin-col} + #{$margin-gap}));
+    margin-top: 0;
+    padding-top: 0.5rem;
+    border-top: 0.5px solid $rule;
+    vertical-align: baseline;
+    position: relative;
+  }
+
+  @media (max-width: $bp-medium) {
+    display: none;
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem 0.75rem;
+    border-left: 2px solid $rule;
+    font-size: 15px;
+  }
+}
+
+.sn-toggle-input:checked ~ .sn {
+  @media (max-width: $bp-medium) { display: block; }
+}
+
+
+// ── Post footer ──────────────────────────────────────────
+.post-footer {
+  max-width: 100%;
+  margin: 2.5rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid $rule;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1rem;
+  clear: right;
+
+  &__tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    font-family: $font-mono;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    border: 0.5px solid $rule;
+    padding: 2px 8px;
+    text-decoration: none;
+
+    &:hover { border-color: $ink-soft; color: $ink; }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      font-family: $font-mono;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: $ink-soft;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover { color: $ink; }
+    }
+  }
+}
+
+// ── No-notes modifier ────────────────────────────────────
+// When a post has no margin notes, remove the text column
+// width constraint so body text spans the full content width.
+.post-content--no-notes {
+  p, li, h3, h2, blockquote, hr, pre, table, ul, ol, .video-wrap {
+    width: 100% !important;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  blockquote {
+    max-width: 560px;
+  }
+}
+
+// ── Responsive video embeds ──────────────────────────────
+// Wraps iframes in a 16:9 aspect ratio container that scales
+// with the text column. Use the {% include video.html %} include
+// rather than raw iframes in posts.
+.video-wrap {
+  display: block;
+  // Centre the video within the full post-content width,
+  // constrained to the text column width as a max
+  width: 100%;
+  max-width: calc(100% - #{$margin-col} - #{$margin-gap});
+  margin: 1.5rem auto;
+  clear: right;
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: inherit;
+    display: block;
+    border: 0.5px solid $rule;
+  }
+}
+
+// ── Wide mode ────────────────────────────────────────────
+// Triggered by `wide: true` in front matter.
+// Removes the text column width constraint so code blocks
+// and other content expand to the full site width.
+// Margin notes behave exactly like mobile — collapsed by default,
+// revealed by clicking the toggle marker.
+.post-content--wide {
+
+  // All block elements go full width
+  p, li, h2, h3, blockquote, hr, pre, table, ul, ol,
+  div.highlight, .video-wrap {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  // Toggles already visible at all sizes — just add cursor on wide mode
+  .mn-toggle,
+  .sn-toggle {
+    cursor: pointer;
+  }
+
+  // Keep notes hidden until toggled at all screen sizes
+  .mn, .sn {
+    display: none !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0.5rem 0 1rem !important;
+    padding: 0.5rem 0.75rem !important;
+    border-top: none !important;
+    border-left: 2px solid $rule;
+    font-size: 13px;
+    color: $ink-mid;
+  }
+
+  // Reveal on toggle
+  .mn-toggle-input:checked ~ .mn,
+  .sn-toggle-input:checked ~ .sn {
+    display: block !important;
+  }
+
+}

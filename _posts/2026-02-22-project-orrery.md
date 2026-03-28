@@ -6,6 +6,7 @@ tags:
   - art
   - projects
   - tech
+redirect_from: /project-orrery
 ---
 
 ![Screenshot of the interactive orrery]({{ site.url }}{{ site.baseurl }}/assets/images/project-orrery.png){: .align-center}
@@ -27,6 +28,6 @@ You can toggle between a logarithmic view, which will display things a little mo
 
 I plan to modify this over time to add more objects like some notable comets, the scattered disc, moons, and the Sednoids.
 
-### Implementation
+### ✦ &ensp; Implementation &ensp; ✦
 
 Claude Sonnet 4.5 assisted with the orbital equations and pointed me at the right data references. It seems to have done pretty well in this regard as far as I can tell, but I'm looking forward to learning more about the math and really grokking it.

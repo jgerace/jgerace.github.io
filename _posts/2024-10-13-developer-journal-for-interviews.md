@@ -6,6 +6,7 @@ tags:
   - software
   - interviewing
   - career
+redirect_from: /developer-journal-for-interviews
 ---
 As an unemployed Senior Software Engineer who's been on the job hunt for over 5 months as of this writing, I've had ample time to reflect on my tenure at my last company. Although my departure was not of my own volition - layoffs, ugh - I've been thinking about what I could have done to better prepare myself for a job search.
 
@@ -13,7 +14,7 @@ I've done the requisite grinding of Leetcode problems and applied to every job p
 
 One idea in particular stands out: keeping a developer journal.
 
-### What's a developer journal?
+### ✦ &ensp; What's a developer journal? &ensp; ✦
 
 A developer journal is a place to document your projects for yourself. It's a place to record whatever you feel is compelling about the project, the process, mistakes you made, things you learned, etc. It can really be whatever you want it to be.
 
@@ -32,7 +33,7 @@ This acts as a record of your career journey. As a reference it can help keep yo
 
 Plus, it can help you in a job search!
 
-### Developer journals and your next opportunity
+### ✦ &ensp; Developer journals and your next opportunity &ensp; ✦
 
 The interview process generally requires a few different types of discussions:
 
@@ -60,7 +61,7 @@ You talk about the context, the whys of the project, then get into the hows. You
 
 Behavioral and project retro interview rounds, which you'll see at basically every company, rely heavily on your long-term memory of details. This, as you might imagine, can be an issue if you're on the market for a long time, and potentially even more so if you're fully unemployed and no longer thinking about the old code base.
 
-### How to prepare for behavioral and project retrospective interviews
+### ✦ &ensp; How to prepare for behavioral and project retrospective interviews &ensp; ✦
 
 Interviewers in these rounds are trying to assess how well you communicate your experience. But communicating all these notable events and structuring your stories depends on how well you actually recall the details.
 

@@ -4,6 +4,7 @@ excerpt: "This is a book."
 tags:
   - book review
   - literature
+redirect_from: /book-a-dirty-job
 ---
 
 ![Front cover of A Dirty Job by Christopher Moore. By Christopher Moore - http://www.isfdb.org/cgi-bin/pl.cgi?257433, Fair use, https://en.wikipedia.org/w/index.php?curid=4322719]({{ site.url }}{{ site.baseurl }}/assets/images/cover-a-dirty-job.jpeg){: .align-center}

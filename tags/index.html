@@ -1,0 +1,46 @@
+---
+layout: default
+title: Tags
+---
+
+<div class="post-header">
+  <div class="post-header__meta">index</div>
+  <h1 class="post-header__title">Tags</h1>
+  <p class="post-header__lede">All the tags I use, listed here as evidence of my impulse to categorize.</p>
+</div>
+
+<ul class="tag-cloud">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+  <li class="tag-cloud__item">
+    <a href="#{{ tag[0] | slugify }}">{{ tag[0] }} <span style="opacity:0.5">({{ tag[1].size }})</span></a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+<div class="tag-section" id="{{ tag[0] | slugify }}">
+  <h2 class="tag-heading">{{ tag[0] }}</h2>
+  <div class="post-list">
+    {% assign posts_for_tag = tag[1] | sort: "date" | reverse %}
+    {% for post in posts_for_tag %}
+    <article class="post-list__item">
+      <div class="post-list__meta">
+        <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%-d %b %Y" | downcase }}
+        </time>
+      </div>
+      <div>
+        <h2 class="post-list__title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip }}</a>
+        </h2>
+        {% if post.excerpt %}
+        <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

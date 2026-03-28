@@ -3,7 +3,7 @@ title: "TV Review: _Interior Chinatown_: More than a rehash"
 excerpt: "I wish more authors exerted this much influence on their movie and TV adaptations."
 tags:
   - movie review
-  - horror
+redirect_from: /tv-interior-chinatown
 ---
 
 ![Hulu release poster for Interior Chinatown - By https://www.imdb.com/title/tt13354972/, Fair use, https://en.wikipedia.org/w/index.php?curid=79371967]({{ site.url }}{{ site.baseurl }}/assets/images/poster-interior-chinatown-show.png){: .align-center}

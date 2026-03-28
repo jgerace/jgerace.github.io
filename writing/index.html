@@ -1,0 +1,54 @@
+---
+layout: default
+title: Writing
+---
+
+<div class="post-epigraph">
+  <p>"I have made this longer than usual because I have not had time to make it shorter."</p>
+  <cite>— Blaise Pascal</cite>
+</div>
+
+<div class="rule-ornament" aria-hidden="true"><span>❧</span></div>
+<h2 class="section-label">all writing</h2>
+
+<div class="post-list">
+  {% for post in paginator.posts %}
+  <article class="post-list__item" aria-labelledby="post-{{ post.id | slugify }}">
+    <div class="post-list__meta">
+      <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%-d %b %Y" | downcase }}
+      </time>
+      {% for tag in post.tags limit:2 %}
+      <a href="{{ "/tags/" | relative_url }}#{{ tag | slugify }}" class="post-list__tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    <div>
+      <h2 class="post-list__title">
+        <a href="{{ post.url | relative_url }}" id="post-{{ post.id | slugify }}">{{ post.title | markdownify | replace: "<p>", "" | replace: "</p>", "" | strip }}</a>
+      </h2>
+      {% if post.excerpt %}
+      <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      {% endif %}
+      {% if post.mood %}
+      <span class="mood-chip chip-{{ post.mood_colour | default: 'red' }}">{{ post.mood }}</span>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="Post navigation">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | relative_url }}">← newer</a>
+  {% else %}
+  <span></span>
+  {% endif %}
+  <span class="pagination__info">p. {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | relative_url }}">older →</a>
+  {% else %}
+  <span></span>
+  {% endif %}
+</nav>
+{% endif %}

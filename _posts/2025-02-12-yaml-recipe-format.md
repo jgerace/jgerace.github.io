@@ -4,6 +4,7 @@ excerpt: "I really just want to find ways to make my life easier."
 tags:
   - food
   - software
+redirect_from: /yaml-recipe-format
 ---
 
 As a dedicated home cook, I've accumulated a ton of recipes over the years. Some from family, some from the internet, some I came up with myself. Each one has a bunch of notes and has evolved over time as I've changed out cooking equipment or as my tastes have changed. I'd been looking for a structured way to store my recipes so that I didn't just have a bunch of word documents or spreadsheets lying around. I also wanted to be able to put my recipes on a website I host on my home network so that I could have them on hand in the kitchen through any device I happened to have with me.
