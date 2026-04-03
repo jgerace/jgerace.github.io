@@ -1,5 +1,6 @@
 ---
 title: "New project: The Weathered Quill"
+description: "The introduction of a new app for generating creative writing prompts"
 excerpt: "Sit down and write already..."
 tags:
   - software
@@ -7,6 +8,7 @@ tags:
   - projects
   - tech
   - writing
+margin_notes: true
 ---
 
 In the lean months of 2024, when I was unemployed and companies declined to acknowledge my existence, I couldn't concentrate on writing. I wanted to. I tried. I even made some occasional progress on my novel {% include mn.html id="pool" note="Often at the neighborhood pool with a cup of iced coffee. Dark days, indeed..." %}.
