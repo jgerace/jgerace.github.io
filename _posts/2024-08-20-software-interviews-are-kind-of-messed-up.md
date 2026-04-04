@@ -7,6 +7,7 @@ tags:
   - career
   - peloton
   - leetcode
+margin_notes: true
 redirect_from: /software-interviews-are-kind-of-messed-up/
 ---
 

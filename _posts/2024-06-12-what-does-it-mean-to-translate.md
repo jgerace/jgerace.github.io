@@ -5,6 +5,7 @@ tags:
   - translation
   - writing
   - literature
+margin_notes: true
 redirect_from: /what-does-it-mean-to-translate/
 ---
 

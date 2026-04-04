@@ -4,6 +4,7 @@ excerpt: "I love using the I Ching as a meditation tool. You should give it a tr
 tags:
   - software
   - project
+margin_notes: true
 redirect_from: /new-project-i-ching/
 ---
 

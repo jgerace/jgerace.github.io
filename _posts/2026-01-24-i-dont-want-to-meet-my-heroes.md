@@ -1,6 +1,8 @@
 ---
 title: "I Don't Want To Meet My Heroes"
 excerpt: "They're people? Just like me??? Ugh..."
+mood: "disappointed, as usual"
+mood_colour: red
 tags:
   - writing
   - art
