@@ -4,6 +4,7 @@ excerpt: "Sneaky sneaky sneaky..."
 tags:
   - design
   - til
+  - gear
 redirect_from: /wired-headphones/
 ---
 

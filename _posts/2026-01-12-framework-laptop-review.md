@@ -3,6 +3,7 @@ title: "My Thoughts on the Framework Laptop"
 excerpt: "It's a computer!"
 tags:
   - tech
+  - gear
 redirect_from: /framework-laptop-review/
 ---
 
