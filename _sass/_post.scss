@@ -157,7 +157,6 @@
     color: $ink-soft;
     margin: 2em 0 0.75em;
     text-align: center;
-    clear: right;
     @media (min-width: $bp-medium-up) {
       width: calc(100% - #{$margin-col} - #{$margin-gap});
     }
