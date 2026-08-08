@@ -1,6 +1,6 @@
 // _sass/_base.scss
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Courier+Prime:wght@400;500&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -80,7 +80,7 @@ body {
 
 .section-label {
   font-family: $font-mono;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   color: $ink-soft;
   text-transform: uppercase;
@@ -93,7 +93,7 @@ body {
     content: '';
     flex: 1;
     height: 0.5px;
-    background: $rule;
+    // background: $rule;
   }
 }
 
@@ -101,7 +101,7 @@ body {
 .mood-chip {
   display: inline-block;
   font-family: $font-mono;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.06em;
   padding: 2px 7px;
   border-radius: 1px;
@@ -161,7 +161,7 @@ body {
 
   &__copyright {
     font-family: $font-mono;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.04em;
     color: $ink-soft;
     font-style: normal;
