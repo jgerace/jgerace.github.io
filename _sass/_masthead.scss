@@ -23,7 +23,7 @@
 
   &__volume {
     font-family: $font-mono;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.15em;
     color: $ink-soft;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
   }
 
   &__subtitle {
-    font-size: 13px;
+    font-size: 16px;
     font-style: italic;
     color: $ink-mid;
     margin: 0;
@@ -60,7 +60,7 @@
 
     a {
       font-family: $font-mono;
-      font-size: 10px;
+      font-size: 14px;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: $ink-mid;

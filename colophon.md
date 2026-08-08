@@ -19,7 +19,7 @@ footer_note: "This is the most self-indulgent page on the site. I maintain it wi
 
   <h3>✦ &ensp; Typography &ensp; ✦</h3>
 
-  <p>Body text is set in <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, a free revival of Claude Garamond's sixteenth-century typefaces. Display headings use <a href="https://fonts.google.com/specimen/Cormorant+Garamond">Cormorant Garamond</a>, a more refined interpretation of the same historical source. Metadata, dates, tags, and all the small machinery of the site is set in <a href="https://fonts.google.com/specimen/JetBrains+Mono">JetBrains Mono</a>.</p>
+  <p>Body text is set in <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, a free revival of Claude Garamond's sixteenth-century typefaces. Display headings use <a href="https://fonts.google.com/specimen/Cormorant+Garamond">Cormorant Garamond</a>, a more refined interpretation of the same historical source. Metadata, dates, tags, and all the small machinery of the site is set in <a href="https://fonts.google.com/specimen/Courier+Prime">Courier Prime</a>.</p>
 
   <p>The drop cap on each post's opening paragraph is set in Cormorant Garamond in the site's red accent, because small pleasures matter.</p>
 
