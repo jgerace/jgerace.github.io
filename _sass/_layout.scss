@@ -75,7 +75,7 @@
   }
 
   &__note {
-    font-size: 11px;
+    font-size: 16px;
     font-style: italic;
     color: $ink-soft;
     text-align: center;
@@ -107,8 +107,8 @@
   }
 
   svg {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     fill: none;
     stroke: currentColor;
     stroke-width: 1.5;

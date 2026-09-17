@@ -68,7 +68,7 @@
   }
 
   cite {
-    font-size: 15px;
+    font-size: 13px;
     color: $ink-soft;
     font-style: normal;
     font-family: $font-mono;
@@ -380,7 +380,7 @@
 .mn-toggle {
   display: inline;
   color: $pop-red;
-  font-size: 0.65em;
+  font-size: .8em;
   vertical-align: super;
   line-height: 0;
   font-family: $font-mono;
@@ -435,7 +435,7 @@
 
   &::after {
     content: counter(sidenote-counter);
-    font-size: 0.65em;
+    font-size: .8em;
     vertical-align: super;
     line-height: 0;
     font-family: $font-mono;

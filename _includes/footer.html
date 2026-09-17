@@ -10,7 +10,6 @@
       </li>
       {% endfor %}
     </ul>
-    <a href="{{ '/colophon/' | relative_url }}" class="site-footer__colophon">colophon</a>
   </div>
   <p class="site-footer__note">
     <span class="site-footer__copyright">Copyright &copy; {{ site.copyright_year }}{% assign current_year = site.time | date: "%Y" %}{% if current_year != site.copyright_year %}&ndash;{{ current_year }}{% endif %} {{ site.author.name }}, All rights reserved.</span>
