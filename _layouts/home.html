@@ -4,12 +4,6 @@ layout: default
 
 <div class="intro">
   <div class="intro__body">
-    {% if site.intro_epigraph %}
-    <div class="intro__epigraph">
-      {{ site.intro_epigraph }}
-      {% if site.intro_epigraph_source %}<cite>{{ site.intro_epigraph_source }}</cite>{% endif %}
-    </div>
-    {% endif %}
 
     {{ content }}
 
@@ -28,7 +22,6 @@ layout: default
   </div>
 </div>
 
-<div class="rule-ornament" aria-hidden="true"><span>❧</span></div>
 <h2 class="section-label">recent writing</h2>
 
 <div class="post-list">

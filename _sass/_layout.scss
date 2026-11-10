@@ -7,30 +7,10 @@
   gap: 3rem;
   padding: 2.5rem 0;
   border-bottom: 1px solid $rule;
+  margin-bottom: 3rem;
 
   @media (max-width: $bp-medium) {
     grid-template-columns: 1fr;
-  }
-
-  &__epigraph {
-    font-size: 13px;
-    font-style: italic;
-    color: $ink-mid;
-    line-height: 1.7;
-    padding: 0.9rem 1.1rem;
-    border-left: 2.5px solid $pop-red;
-    background: $pop-red-bg;
-    margin-bottom: 1.25rem;
-
-    cite {
-      display: block;
-      font-style: normal;
-      font-size: 10px;
-      color: $ink-soft;
-      margin-top: 6px;
-      font-family: $font-mono;
-      letter-spacing: 0.04em;
-    }
   }
 
   &__body {

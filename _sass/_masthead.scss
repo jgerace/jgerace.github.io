@@ -53,8 +53,10 @@
 
   &__nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 2.5rem;
+    // Shrink the gap with the viewport so links fit before they need to wrap
+    gap: 0.5rem clamp(1rem, 5vw, 2.5rem);
     margin-top: 14px;
     list-style: none;
 
@@ -62,6 +64,11 @@
       font-family: $font-mono;
       font-size: 13px;
       letter-spacing: 0.12em;
+
+      @media (max-width: $bp-medium) {
+        font-size: 12px;
+        letter-spacing: 0.08em;
+      }
       text-transform: uppercase;
       color: $ink-mid;
       text-decoration: none;
