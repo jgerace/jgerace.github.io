@@ -57,9 +57,6 @@ layout: default
     {% for tag in page.tags %}
     <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="post-footer__tag">{{ tag }}</a>
     {% endfor %}
-    {% if page.mood %}
-    <span class="post-footer__tag" style="font-style:italic" aria-label="Mood: {{ page.mood }}">{{ page.mood }}</span>
-    {% endif %}
   </div>
 
   <nav class="post-footer__nav" aria-label="Adjacent posts">

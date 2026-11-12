@@ -29,9 +29,6 @@ title: Writing
       {% if post.excerpt %}
       <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
       {% endif %}
-      {% if post.mood %}
-      <span class="mood-chip chip-{{ post.mood_colour | default: 'red' }}">{{ post.mood }}</span>
-      {% endif %}
     </div>
   </article>
   {% endfor %}
